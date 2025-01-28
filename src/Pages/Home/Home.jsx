@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header/Header'
 import MainContent from './MainContent/MainContent'
-import Proyects from './Proyects/Proyects'
+import Projects from './Projects/Projects'
 import AboutMe from './AboutMe/AboutMe'
 import ContactMe from './ContactMe/ContactMe'
 
@@ -10,7 +10,7 @@ function Home() {
     <div className = "Home">
     <Header/>
     <MainContent/>
-    <Proyects/>
+    <Projects/>
     <AboutMe/>
     <ContactMe/>
     </div>

@@ -1,0 +1,30 @@
+    .main-container-project-details {
+    width: 100%;
+    min-height: 100vh;
+    background-color:  #040411;
+    color: #f5f5f5 ;
+    text-shadow: 0px 0px 3px #040411;
+    background-image: url("src/Pages/Projects-details/images/Background2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+     /* Mantiene la imagen fija al hacer scroll */
+    z-index: 1; /* Menor que el header */
+     /* Para controlar el stacking context */
+    display: flex;
+    justify-content: center;
+     }
+
+    .project-details{
+    margin-top:100px;
+    }
+
+
+    .containter-project-content p{
+    margin-top: 50px;
+    }
+  
+  .containter-project-content h1{
+    align-self: center;
+     }
+  
