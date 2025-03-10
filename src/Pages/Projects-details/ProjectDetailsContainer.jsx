@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from './Carousel'
+import "./ProjectDetailsContainer.css"
 
 function ProjectDetailsContainer({title,description,imagesSlides}) {
   return (

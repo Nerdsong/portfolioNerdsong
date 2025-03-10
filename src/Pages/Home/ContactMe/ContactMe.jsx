@@ -3,6 +3,7 @@ import EmailTrace  from '/src/assets/emailRayTrace.json'
 import Sent from '/src/assets/sent.json'
 import emailjs from '@emailjs/browser'
 import Lottie from 'react-lottie'
+import "./ContactMe.css"
 
 
 function ContactMe() {
@@ -57,8 +58,8 @@ function ContactMe() {
   return (
 
     <div className ="contactme-container">
-      <div className="title-section3">
-        <h2>Contactame</h2>
+      <div className="title-section4">
+        <h1>Contactame</h1>
       </div>
       <div className='aboutme-content'>
         <form className= 'form' onSubmit= { sendEmail } ref ={form}>

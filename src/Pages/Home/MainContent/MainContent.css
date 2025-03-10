@@ -1,0 +1,310 @@
+.main-container {
+    width: 100%;
+    height: 100dvh;
+    background-color: #040411;
+    color: #f5f5f5;
+    text-shadow: 0 0 3px #040411;
+    background-image: url("src/Pages/Home/MainContent/background-image-1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 140% 110%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .main-content {
+    width: 88vw;
+  }
+  
+  .intro-container {
+    display: flex;
+    justify-content: start;
+    margin: 12.5rem 0; /* 200px */
+    padding: 0;
+    flex-wrap: wrap;
+  } 
+  
+  .intro-container h3 {
+    margin-top: 0.625rem; 
+    font-weight: 300;
+    margin-bottom: 3.125rem; 
+  }
+  
+  .intro-container p {
+    font-weight: 300;
+    background-color: #04041186;
+    border-color: #880e0e;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.75rem; 
+    padding: 1.25em;
+    width: 45vw;
+    height: 30vh;
+  }
+  
+  .intro-container button {
+    font-weight: 500;
+    padding: 0.9375rem 1.25em; 
+    border-radius: 0.625em; 
+    border-color: #880e0e;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #040411;
+    color: #f5f5f5;
+    margin-right: 1.5625em; 
+    margin-top: 0.9375em; 
+    font-size: 1rem;
+  }
+  
+  .intro-container button:hover {
+    background-color: #23232c;
+    box-shadow: 0 0 1.5em 0.25em #52e28e;
+    border-color: #880e0e00;
+    transition: all 0.3s ease;
+  }
+  
+  .main-content h1 {
+    margin: 0;
+  }
+  
+
+  @media (max-width: 480px){
+
+    .main-container {
+      background-size: 180%;
+      background-repeat: no-repeat;
+      background-position: -35vw -15vh;
+    }
+
+    .intro-container {
+      justify-content: center;
+      margin: 0;
+      padding: 35vh 0;
+      flex-grow:1;
+    }
+
+    .main-content {
+      width: 90%;
+    }
+
+    .intro-container h3 {
+      margin-top: 0.725rem;
+      font-weight: 300;
+      margin-bottom: 5vh; 
+      
+    }
+
+    .intro-container p {
+      border-width: 1px;
+      border-radius: 0.45rem; /* 12px */
+      padding: 0.85rem; /* 20px */
+      width: 75vw;
+      height: 30dvh;
+    }
+
+    .main-intro{
+      max-width:95%;
+      width: 100%;
+    }
+
+    .intro-container button {
+      font-weight: 300;
+      padding: 0.75em 0.85em;
+      border-width: 1px;
+      margin-right: 0.9625em; 
+      margin-top: 0.5375em;
+    }
+
+
+  }
+
+  @media (min-width: 481px) and (max-width: 768px){
+
+    .intro-container {
+      justify-content: center;
+      margin: 0;
+      padding: 35vh 0;
+      flex-grow:1;
+    }
+
+    .main-content {
+      width: 90%;
+    }
+
+    .intro-container h3 {
+      margin-top: 0.725rem;
+      font-weight: 300;
+      margin-bottom: 5vh; 
+      
+    }
+
+    .intro-container p {
+      border-width: 1px;
+      border-radius: 0.45rem; /* 12px */
+      padding: 0.85rem; /* 20px */
+      width: 75vw;
+      height: 30dvh;
+    }
+
+    .main-intro{
+      max-width:95%;
+      width: 100%;
+    }
+
+    .intro-container button {
+      font-weight: 300;
+      padding: 0.75em 0.85em;
+      border-width: 1px;
+      margin-right: 0.9625em; 
+      margin-top: 0.5375em;
+    }
+
+
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) { 
+    .intro-container {
+      justify-content: center;
+      margin: 0;
+      padding: 35vh 0;
+      flex-grow:1;
+    }
+
+    .main-content {
+      width: 90%;
+    }
+
+    .intro-container h3 {
+      margin-top: 0.725rem;
+      font-weight: 300;
+      margin-bottom: 5vh; 
+      
+    }
+
+    .intro-container p {
+      border-width: 1px;
+      border-radius: 0.45rem; /* 12px */
+      padding: 0.85rem; /* 20px */
+      width: 75vw;
+      height: 30dvh;
+    }
+
+    .main-intro{
+      max-width:95%;
+      width: 100%;
+    }
+
+    .intro-container button {
+      font-weight: 300;
+      padding: 0.75em 0.85em;
+      border-width: 1px;
+      margin-right: 0.9625em; 
+      margin-top: 0.5375em;
+    }
+
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px){
+    .intro-container {
+      justify-content: center;
+      margin: 0;
+      padding: 35vh 0;
+      flex-grow:1;
+    }
+
+    .main-content {
+      width: 90%;
+    }
+
+    .intro-container h3 {
+      margin-top: 0.725rem;
+      font-weight: 300;
+      margin-bottom: 5vh; 
+      
+    }
+
+    .intro-container p {
+      border-width: 1px;
+      border-radius: 0.45rem; /* 12px */
+      padding: 0.85rem; /* 20px */
+      width: 75vw;
+      height: 30dvh;
+    }
+
+    .main-intro{
+      max-width:95%;
+      width: 100%;
+    }
+
+    .intro-container button {
+      font-weight: 300;
+      padding: 0.75em 0.85em;
+      border-width: 1px;
+      margin-right: 0.9625em; 
+      margin-top: 0.5375em;
+    }
+
+  }
+ 
+  /*the next group of queries are just to scale the background for perfect fit. */
+
+  @media (min-width: 481px) and (max-width: 530px){
+
+    .main-container {
+      background-size: 170%;
+      background-repeat: no-repeat;
+      background-position: -25vw -18vh;
+    }
+  }
+
+  @media (min-width: 531px) and (max-width: 600px){
+    .main-container {
+      background-size: 150%;
+      background-position: -14vw -15vh; 
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 700px){
+    .main-container {
+      background-size: 150%;
+      background-position: -15vw -20vh; 
+    }
+  }
+
+  @media (min-width: 701px) and (max-width: 768px){
+    .main-container {
+      background-size: 140%;
+      background-position: -10vw -20vh; 
+    }
+  }
+
+  @media (min-width: 770px) and (max-width: 850px){
+    .main-container {
+      background-size: 140%;
+      background-position: -12vw -24vh; 
+    }
+  }
+
+  @media (min-width: 851px) and (max-width: 930px){
+    .main-container {
+      background-size: 140%;
+      background-position: -10vw -28vh; 
+    }
+  }
+
+  @media (min-width: 931px) and (max-width: 1024px){
+    .main-container {
+      background-size: 120%;
+      background-position: -1vw -28vh; 
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1280px){
+    .main-container {
+      background-size: 90%;
+      background-position: 20vw -20vh; 
+    }
+  }

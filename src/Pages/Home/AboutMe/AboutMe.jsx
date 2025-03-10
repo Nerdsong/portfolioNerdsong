@@ -1,10 +1,11 @@
 import React from 'react'
+import "./AboutMe.css"
 
 function AboutMe() {
   return (
     <div className ="aboutme-container">
         <div className="title-section3">
-            <h2>Sobre mi</h2>
+            <h1>Sobre mi</h1>
         </div>
         <div className='aboutme-content'>
           <img src="src/Pages/Home/AboutMe/AboutMePortfolio.jpg" alt="foto-nelson" />
