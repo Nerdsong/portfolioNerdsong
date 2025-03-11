@@ -8,7 +8,7 @@ import Header from './Pages/Home/Header/Header'
 import Projects from './Pages/Home/Projects/Projects'
 import AboutMe from './Pages/Home/AboutMe/AboutMe'
 import ContactMe from './Pages/Home/ContactMe/ContactMe'
-import "./static.mp4"
+
 
 function App() {
   const location = useLocation(); // Obtiene la ubicación actual (ruta)
@@ -54,7 +54,7 @@ function App() {
 
     }}
   >
-    <source src="src/static.mp4" type="video/mp4" />
+    <source src="/static.mp4" type="video/mp4" />
   </video>
       </div>  
     )
