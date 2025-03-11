@@ -8,14 +8,58 @@ function AboutMe() {
             <h1>Sobre mi</h1>
         </div>
         <div className='aboutme-content'>
-          <img src="/images/AboutMePortfolio.jpg" alt="foto-nelson" />
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis elementum facilisis. Suspendisse mattis pellentesque lacus. Pellentesque nibh dui, dapibus id porttitor id, ultrices ac est. Curabitur id elit ex. Aenean erat felis, lacinia et accumsan ac, gravida et arcu. Nunc maximus velit quam, eu ullamcorper magna consequat sed. Morbi viverra non diam eu maximus. Maecenas sed ipsum ut ex porttitor gravida. Nulla porttitor tortor nec magna vehicula, vitae volutpat mi mollis.
-
-          Cras vehicula, quam a bibendum mollis, diam magna consectetur turpis, a sodales diam turpis quis nisi. Fusce finibus mauris sit amet elit molestie luctus. Nullam nec orci dui. Ut pulvinar, odio vitae rutrum volutpat, nulla sem egestas urna, et feugiat metus purus quis ligula. Nullam euismod erat aliquet justo interdum dignissim. Etiam eget bibendum nulla, ac interdum justo. Pellentesque et pharetra elit. Vivamus blandit facilisis tellus, at elementum leo tristique id. Aenean malesuada malesuada massa eget ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean mattis nisi non diam varius, at iaculis ante ultrices.
-
-          Etiam consequat dui a dolor viverra interdum. Phasellus tincidunt dolor vel ante interdum sagittis. Etiam rutrum tellus et sapien lobortis cursus. Phasellus sed commodo odio. Donec sodales nisi sit amet dictum euismod. Praesent mi turpis, consectetur in turpis tempor, dapibus aliquet enim. Ut non tristique tortor. In malesuada luctus hendrerit.
-          </p>
+          <img className="profile-photo" src="/images/AboutMePortfolio.jpg" alt="foto-nelson" />
+          <div className='aboutme-details'>
+            <div className='details-container'>
+              <h3>Tecnologias: </h3>
+              <div className='technologies-container'>
+                <div className= "language-element">
+                  <img className = "icon-language" src="/images/icons/HTML-icon.png" alt="HTML-icon"/>
+                  <p>HTML</p>
+                </div>
+                <div className= "language-element">
+                  <img className = "icon-language" src="/images/icons/CSS-icon.png" alt="CSS-icon"/>
+                  <p>CSS</p>
+                </div>
+                <div className= "language-element">
+                  <img className = "icon-language" src="/images/icons/JS-icon.png" alt="JS-icon" />
+                  <p>JavaScript</p>
+                </div>
+                <div className= "language-element">
+                  <img className = "icon-language" src="/images/icons/React-icon.png" alt="React-icon"/>
+                  <p>React</p>
+                </div>
+                <div className= "language-element">
+                  <img className = "icon-language" src="/images/icons/C++-icon.png" alt="C++-icon"/>
+                  <p>C++</p>
+                </div>
+              </div>
+            </div>
+            <div className='details-container'>
+              <h3>Formacion: </h3>
+              <p>
+              &nbsp;Tecnicatura universitaria en programación - Universidad Técnologica Nacional [UTN] <b>(En progreso) </b>
+              </p>
+            </div>
+            <div className='details-container'>
+              <h3>Idiomas: </h3>
+              <ul>
+                <li>Inglés avanzado (B2)</li>
+                <li>Español nativo</li>
+              </ul>
+            </div>
+            <div className='details-container' id="cv-container">
+                <h3>CV: </h3>
+                <a href="/CV Nelson Adarmes.pdf" className="icon" download="CV Nelson Adarmes.pdf" ></a>
+            </div>
+            <div className='details-container'>
+              <p>
+                Además de mis estudios universitarios llevo casi 3 años estudiando programación por mi cuenta. Mi stack actual me posiciona como desarollador Front-End pero tengo interés en ser FullStack, por lo tanto, estoy aprendiendo SQL y Node.js, tambien conozco lo más básico de Python. 
+                Soy una persona bastante creativa y resolutiva, cuento con más de 4 años de experiencia en customer service y 3 años como coordinador de logistica para un equipo técnico, esto ha permitido que mis habilidades blandas esten bastante desarrolladas pudiendo comunicarme de manera efectiva por cualquier medio y con altas capacidades de trabajo colaborativo.
+              </p>
+            </div>
+          </div>
+          
         </div>
     </div> 
   )

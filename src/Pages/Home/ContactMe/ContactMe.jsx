@@ -79,11 +79,11 @@ function ContactMe() {
               <Lottie options = {defaultOptions}/>
             </div>
             <div className = "icons-container"> 
-              <a href="https://www.linkedin.com/in/nerdsong/" className = "icon" id="linkedin-icon">
+              <a href="https://www.linkedin.com/in/nerdsong/"   id="linkedin-icon">
               </a>
-              <a href="https://github.com/Nerdsong" className = "icon"  id="github-icon">
+              <a href="https://github.com/Nerdsong"   id="github-icon">
               </a>
-              <a href="https://wa.me/+541123869921" className = "icon"  id="whatsapp-icon">
+              <a href="https://wa.me/+541123869921"  id="whatsapp-icon">
               </a>
             </div>
         </div>
