@@ -26,7 +26,7 @@
   }
   
   #linkedin-icon {
-    background-image: url('src/assets/icons/linkedinRed.png');
+    background-image: url('/images/icons/linkedinRed.png');
     width: 3.125rem; 
     height: 3.125rem; 
     background-size: contain;
@@ -35,11 +35,11 @@
   }
   
   #linkedin-icon:hover {
-    background-image: url('src/assets/icons/linkedinGreen.png');
+    background-image: url('/images/icons/linkedinGreen.png');
   }
   
   #github-icon {
-    background-image: url("src/assets/icons/githubRed.png");
+    background-image: url("/images/icons/githubRed.png");
     width: 3.125rem; /* 50px */
     height: 3.125rem; /* 50px */
     background-size: contain;
@@ -48,11 +48,11 @@
   }
   
   #github-icon:hover {
-    background-image: url("src/assets/icons/githubGreen.png");
+    background-image: url("/images/icons/githubGreen.png");
   }
   
   #whatsapp-icon {
-    background-image: url("src/assets/icons/whatsappRed.png");
+    background-image: url("/images/icons/whatsappRed.png");
     width: 3.125rem; /* 50px */
     height: 3.125rem; /* 50px */
     background-size: contain;
@@ -61,7 +61,7 @@
   }
   
   #whatsapp-icon:hover {
-    background-image: url("src/assets/icons/whatsappGreen.png");
+    background-image: url("/images/icons/whatsappGreen.png");
   }
   
   .form {

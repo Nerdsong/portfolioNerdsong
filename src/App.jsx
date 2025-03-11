@@ -54,7 +54,7 @@ function App() {
 
     }}
   >
-    <source src="/images/static.mp4" type="video/mp4" />
+    <source src="/videos/static.mp4" type="video/mp4" />
   </video>
       </div>  
     )
