@@ -8,7 +8,7 @@ function Header(props) {
   return (
     <div className="header">
         <div>
-            <img src = "src\Pages\Home\Header\logo.png" className ="logo-img" />
+            <img src = "/images/logo.png" className ="logo-img" />
         </div>
         <div className ="nav-container">
             <nav>

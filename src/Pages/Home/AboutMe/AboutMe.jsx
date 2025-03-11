@@ -8,7 +8,7 @@ function AboutMe() {
             <h1>Sobre mi</h1>
         </div>
         <div className='aboutme-content'>
-          <img src="src/Pages/Home/AboutMe/AboutMePortfolio.jpg" alt="foto-nelson" />
+          <img src="/images/AboutMePortfolio.jpg" alt="foto-nelson" />
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam convallis elementum facilisis. Suspendisse mattis pellentesque lacus. Pellentesque nibh dui, dapibus id porttitor id, ultrices ac est. Curabitur id elit ex. Aenean erat felis, lacinia et accumsan ac, gravida et arcu. Nunc maximus velit quam, eu ullamcorper magna consequat sed. Morbi viverra non diam eu maximus. Maecenas sed ipsum ut ex porttitor gravida. Nulla porttitor tortor nec magna vehicula, vitae volutpat mi mollis.
 
