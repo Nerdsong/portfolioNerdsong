@@ -14,6 +14,16 @@ html{
     height: 100%;
   }
 
+  .video-visible {
+    opacity: 0.5; /* Video visible */
+  }
+  
+  .video-hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    pointer-events: none; /* Evita interacciones con el video cuando está oculto */
+  }
+
 @media (max-width: 480px){
     html{
       font-size: 15px;

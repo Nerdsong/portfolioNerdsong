@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { scrollToSection } from '../../../scrollToSection' 
+import { Link } from 'react-router-dom'
 
 function Header(props) {
 
@@ -11,12 +12,10 @@ function Header(props) {
         </div>
         <div className ="nav-container">
             <nav>
-                    <a href="#main" onClick={(e) => {
-              e.preventDefault();
-              scrollToSection('main')}} className ="nav-link">Inicio</a>
-                    <a href="#section2" className ="nav-link">Sobre mi</a>
-                    <a className ="nav-link">Proyectos</a>
-                    <a className ="nav-link">Contacto</a>
+                    <Link to="/"  className ="nav-link">Inicio</Link>
+                    <Link to="/About-me" className ="nav-link">Sobre mi</Link>
+                    <Link to="/Projects" className ="nav-link">Proyectos</Link>
+                    <Link to="Contact-me" className ="nav-link">Contacto</Link>
             </nav>
         </div> 
     </div>

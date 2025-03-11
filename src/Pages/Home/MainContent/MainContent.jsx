@@ -2,6 +2,7 @@ import React from 'react'
 import raytrace from '/src/assets/raytrace.json'
 import "./MainContent.css"
 import Lottie from 'react-lottie'
+import { useNavigate } from 'react-router-dom';
 
 
 const defaultOptions = {
@@ -17,6 +18,8 @@ const defaultOptions = {
 
 function MainContent() {
   
+  const navigate = useNavigate();
+
   return (
     <div className="main-container">
       <div className="main-content">
@@ -29,11 +32,8 @@ function MainContent() {
                   enfrentarme<br/> a problemas reales, en un intento por ganar experiencia y conocimiento.<br/><br/>
                   ¡Te invito a verlos! 
               </p>
-              <button>Ver proyectos</button> <button>Contactarme</button>
-              <div className= "animation-container">
-              
-              </div>
-               </div>
+              <button onClick = { ()=> navigate("/Projects")}>Ver proyectos</button> <button onClick = { ()=> navigate("/Contact-me")}>Contactarme</button>
+          </div>
         
           </div>
       </div>

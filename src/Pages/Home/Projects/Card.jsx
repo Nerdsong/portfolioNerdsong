@@ -1,10 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const Card = ({name,image,description, method}) => {
-
+const Card = ({name,image,description,rute}) => {
+  const navigate = useNavigate()
   return (
     <div>
-        <div className="card" onClick = {method} >
+        <div onClick={()=> navigate(rute)} className="card">
             <img src={image}/>
             <h4>{name}</h4>
             <p>{description}</p>

@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from './Header/Header'
 import MainContent from './MainContent/MainContent'
 import Projects from './Projects/Projects'
 import AboutMe from './AboutMe/AboutMe'
 import ContactMe from './ContactMe/ContactMe'
 import "./Home.css"
-import { registerRef } from '../../scrollToSection'
+import { useRef } from 'react'
 
 function Home() {
   const mainContentRef = useRef(null);
@@ -15,18 +14,8 @@ function Home() {
 
   return (
     <div className = "Home">
-      <Header/>
       <div ref={mainContentRef}>
         <MainContent/>
-      </div>
-      <div ref={projectsRef}>
-        <Projects/>
-      </div>
-      <div ref={aboutMeRef}>
-        <AboutMe/>
-      </div>
-      <div ref={contactMeRef}> 
-        <ContactMe/>
       </div>
     </div>
   )
