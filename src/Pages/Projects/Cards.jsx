@@ -9,7 +9,7 @@ function Cards() {
     <div className= 'cards-proyects-container'>
         <Card 
           name="Tracking Tool" 
-          image="src/Pages/Home/Projects/Tracking-tool-img.png"
+          image="/projectsFiles/projectImages/Tracking-tool-image.png"
           description="Herramienta para mi trabajo actual que permite arrojar dos hojas de excel y mostrar informacion en pantalla en un orden especifico"
           rute="/Projects-details/Tracking-tool"
           />
@@ -21,7 +21,7 @@ function Cards() {
         />
         <Card 
           name="Metronomo" 
-          image="src/Pages/Home/Projects/Tracking-tool-img.png"
+          image="/projectsFiles/projectImages/Metronomo-image.png"
           description="Aplicacion que contiene un metronomo y un generador de números aleatorios para fines prácticos, musicales"
           rute="/Projects-details/Metronomo"
         />

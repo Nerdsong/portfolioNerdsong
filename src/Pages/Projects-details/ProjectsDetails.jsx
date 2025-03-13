@@ -1,14 +1,37 @@
 import React from 'react'
-
-import {slides} from "./images/projectImages.json"
 import "./Project-details.css"
 import ProjectDetailsContainer from './ProjectDetailsContainer'
 import { useParams } from 'react-router-dom'
+import data from './Data/projectsData.json'
+
 
 function ProjectsDetails() {
 
   const {projectName} = useParams();
+  
+  const projectToRender = data.find((dataItem) => dataItem.id === projectName);
+    
+    if(projectToRender !== undefined){
+      return(
+        <div className = "main-container-project-details ">     
+          <ProjectDetailsContainer 
+            title= {projectToRender.title}
+            description= {projectToRender.description}
+            imagesSlides={projectToRender.images}
+            aditionalContent={projectToRender.aditionalContent}
+          />
+        </div>
+      )
+    }
+    else{
+      return(
+        <h1>Not found</h1>
+      )
+    } 
+    
+}
 
+  /*
   if (projectName === "Tracking-tool"){
     return (
       <div className = "main-container-project-details ">     
@@ -41,7 +64,7 @@ function ProjectsDetails() {
         />
       </div>
     )
-  }
-}
+  }*/
+
 
 export default ProjectsDetails 

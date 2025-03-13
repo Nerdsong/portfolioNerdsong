@@ -1,0 +1,7 @@
+Este es uno de mis primeros proyectos personales. Se trata de un metrónomo cuya funcionalidad es ayudar a los músicos en jornadas de práctica a mantener el tempo, es decir, tocar con cierta "velocidad" según los "bpm" beats por minuto o golpes por minuto..  
+
+Los metrónomos son herramientas bastante comunes en la música funcionan como un "grid" (grilla) sonora que permite subdividir una fracción de tiempo según las velocidades a las que se pretenda ejecutar el instrumento..  
+
+Sumado al metrónomo hice un generador de números aleatorios que pretende generar todas las combinaciones de números posibles cuya suma es 16, 32 u otra combinación según elija el usuario. Esta funcionalidad es un ejercicio de practica rítmica solicitado por un amigo que me sirvió como ejercicio de lógica..  
+
+El repositorio está disponible en el siguiente enlace: 

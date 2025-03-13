@@ -1,13 +1,12 @@
 import { useState, useEffect }  from 'react'
+import { Route, Routes,useLocation } from 'react-router-dom'
 import './App.css'
 import Home from './Pages/Home/Home'
-import Lottie from 'react-lottie'
 import ProjectsDetails from './Pages/Projects-details/ProjectsDetails'
-import { Route, Routes,useLocation } from 'react-router-dom'
-import Header from './Pages/Home/Header/Header'
-import Projects from './Pages/Home/Projects/Projects'
-import AboutMe from './Pages/Home/AboutMe/AboutMe'
-import ContactMe from './Pages/Home/ContactMe/ContactMe'
+import Header from './Pages/Header/Header'
+import Projects from './Pages/Projects/Projects'
+import AboutMe from './Pages/AboutMe/AboutMe'
+import ContactMe from './Pages/ContactMe/ContactMe'
 
 
 function App() {

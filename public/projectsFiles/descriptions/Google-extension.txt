@@ -1,0 +1,9 @@
+Desarrollé una extension de google chrome para devolver un elemento dentro de la misma interfaz de la página en la que se ejecutaba la extensión si se cumplían ciertas condiciones..  
+
+Con este proyecto pude experimentar con otro tipo de desarrollo adaptándome a los parámetros de comunicación que propone Google mediante su API de messaging para la comunicación de los módulos de código entre sus distintos scopes (service worker, content script y popup window)..  
+
+A grandes rasgos con el content script capturaba algunos elementos del DOM, tomaba sus valores y los enviaba al service worker donde realizaba una búsqueda en unos listados de información utilizando un algoritmo de búsqueda binaria aprovechando que dichos listados eran valores numéricos y estaban organizados de forma ascendente. Si la información coincidía volvía a enviar un mensaje al content script para inyectar algunos elementos en el DOM como indicadores para el usuario..  
+
+Conjuntamente con el desarrollo de la extensión intenté trasladar la aplicación de Tracking Tool, prescindiendo de la descarga del archivo excel y capturando la información desde el DOM, pero desafortunadamente al ser un desarrollo no oficial el equipo de IT deshabilitó el uso de event listeners y otros métodos utilizados por esta extension por motivos de seguridad. Por lo tanto no pude continuar con este desarrollo..  
+
+Este repositorio no es público.  

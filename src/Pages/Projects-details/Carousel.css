@@ -2,9 +2,12 @@
 
 .carousel {
     position: relative;
-    width: 100%;
+    object-fit: contain;
     align-self: center;
-    max-width: 700px;
+    width: auto;
+    max-width: 40em;
+    max-height: 25em;
+    min-height: 25em;
     overflow: hidden;
     border-radius: 10px;
     display: flex;
@@ -12,6 +15,10 @@
     align-items: center;
   }
   
+  .carousel img {
+    
+    object-fit: contain;
+  }
  
   .arrow {
     position: absolute;

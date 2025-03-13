@@ -11,6 +11,7 @@
   .title-section2 {
     align-self: center;
     margin: 0 0 6rem; 
+    font-style: italic;
   }
 
   
@@ -46,9 +47,13 @@
   }
   
   .card img {
+    max-width: 12.5em;
+    max-height: 10em;
+    min-height: 8em;
     width: 12.5em; /* 200px */
     border-radius: 0.625rem; /* 10px */
     align-self: center;
+    overflow: hidden;
   }
   
   .card:hover {

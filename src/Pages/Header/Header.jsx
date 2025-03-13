@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import { scrollToSection } from '../../../scrollToSection' 
+import { scrollToSection } from '../../scrollToSection' 
 import { Link } from 'react-router-dom'
 
 function Header(props) {
