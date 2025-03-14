@@ -78,7 +78,7 @@
     margin-left: 3em;
   }
   
-  .form .submit-button {
+  .submit-button {
     font-size: 1rem;
     font-weight: 500;
     padding: 0.9375rem 1.25rem; /* 15px 20px */
@@ -90,18 +90,27 @@
     color: #f5f5f5;
     margin-right: 1.5625rem; /* 25px */
     margin-left: 0;
-    margin-top: 0.9375rem; /* 15px */
+    margin-top: 3rem; /* 15px */
     margin-bottom: 1.25rem; /* 20px */
+    transition: all 0.4s ease-in;
+    width: 100%;
   }
   
-  .form .submit-button:hover {
+  .submit-button:hover {
     background-color: #23232c;
     box-shadow: 0 0 30px 5px #52e28e;
     border-color: #880e0e00;
-    transition: all 0.3s ease;
+    transition: all 0.4s ease-in;
   }
-  
-  .form input {
+
+  .submit-button:active {
+    background-color:  #040411;
+    box-shadow: 0 0 30px 5px #880e0e;
+    border-color:#880e0e;
+    transition: all 0.2s ;
+  }
+
+  .input-text{
     background-color: #04041186;
     color: #ffffff;
     border: 1px solid #880e0e;
@@ -114,7 +123,7 @@
    
   }
   
-  .form input:focus {
+  .input-text:focus {
     outline: none;
     border-color: #52e28e;
     border-width: 2px;
@@ -123,7 +132,7 @@
     transition: all 0.5s ease;
   }
   
-  .form textarea {
+  .input-text {
     background-color: #04041186;
     color: #ffffff;
     border: 1px solid #880e0e;
@@ -136,7 +145,7 @@
     
   }
   
-  .form textarea:focus {
+  .input-text:focus {
     outline: none;
     border-color: #52e28e;
     box-shadow: 0 0 5px #52e28e;
