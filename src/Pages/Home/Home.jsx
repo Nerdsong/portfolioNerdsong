@@ -3,7 +3,7 @@ import raytrace from '/src/assets/raytrace.json'
 import "./Home.css"
 import Lottie from 'react-lottie'
 import { useNavigate } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 
 const defaultOptions = {
   loop: true,
@@ -19,6 +19,7 @@ const defaultOptions = {
 function MainContent() {
   
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   return (
     <div className="main-container">
@@ -26,13 +27,10 @@ function MainContent() {
           <div className="intro-container">
               <div className = "main-intro">
               <h1>Nelson Adarmes</h1>
-              <h3>Desarrollador web FrontEnd.</h3>
-              <p>Soy estudiante de la carrera de tecnicatura en programacion de la Universidad Tecnologica Nacional (UTN). <br/><br/>
-                  Mi portafolio está compuesto por proyectos en los que he buscado 
-                  enfrentarme<br/> a problemas reales, en un intento por ganar experiencia y conocimiento.<br/><br/>
-                  ¡Te invito a verlos! 
-              </p>
-              <button onClick = { ()=> navigate("/Projects")}>Ver proyectos</button> <button onClick = { ()=> navigate("/Contact-me")}>Contactarme</button>
+              <h3>{t('home.subtitle')}</h3>
+              <p>{t('home.text')}</p>
+              <button onClick={() => navigate('/Projects')}>{t('home.button1')}</button>
+               <button onClick={() => navigate('/Contact-me')}>{t('home.button2')}</button>
           </div>
         
           </div>

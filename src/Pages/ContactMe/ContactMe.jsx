@@ -5,19 +5,20 @@ import emailjs from '@emailjs/browser'
 import Lottie from 'react-lottie'
 import "./ContactMe.css"
 import ReCAPTCHA from 'react-google-recaptcha'
+import { useTranslation } from 'react-i18next';
 
 
 function ContactMe() {
-
+  const {t} = useTranslation();
   const form = useRef();
   const captcha = useRef();
-  const [captchaValido, setCaptchaValido] = useState(null)
+  const [captchaValid, setCaptchaValid] = useState(null)
 
   const onChange = ()=>{
     if(captcha.current.getValue()){
-      setCaptchaValido(true)
+      setCaptchaValid(true)
     }
-    else{setCaptchaValido(false)}
+    else{setCaptchaValid(false)}
   }
 
   const sendEmail = (e) => {
@@ -79,25 +80,25 @@ function ContactMe() {
 
     <div className ="contactme-container">
       <div className="title-section4">
-        <h1>Contactame</h1>
+        <h1>{t('contact.title')}</h1>
       </div>
       <div className='aboutme-content'>
         <form className= 'form' onSubmit= { sendEmail } ref ={form}>
-          <label >Nombre:</label>
+          <label >{t('contact.labels.name')}</label>
           <input type="text" id="nombre" name="user_name" className= "input-text" required /><br /><br />
 
-          <label >Correo Electrónico:</label>
+          <label >{t('contact.labels.email')}</label>
           <input type="email" id="email" name="user_email" className= "input-text" required /><br /><br />
 
-          <label >Mensaje:</label><br />
+          <label >{t('contact.labels.message')}</label><br />
           <textarea id="mensaje" name="message" rows="5" className= "input-text" required  ></textarea><br /><br />
           <ReCAPTCHA 
             ref = {captcha}
             sitekey="6LfR9_MqAAAAAESA4d7U4JDBkjpavzBHmdmg8S-W" 
             onChange={onChange}
           />
-          {captchaValido === false && <div> Por favor completa el captcha</div>}
-          <input type="submit" value = "Enviar" className= "submit-button" disabled={isSubmitted}/>
+          {captchaValid === false && <div> Por favor completa el captcha</div>}
+          <input type="submit" value = {t('contact.button')} className= "submit-button" disabled={isSubmitted}/>
         </form>
       <div>
             <div className= "animation-container2">

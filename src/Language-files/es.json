@@ -1,0 +1,55 @@
+{
+    "header": {
+      "nav": {
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+      }
+    },
+    "home": {
+      "title": "Nelson Adarmes",
+      "subtitle": "Desarrollador web FrontEnd",
+      "text": "Soy estudiante de la carrera de tecnicatura en programación de la Universidad Tecnológica Nacional (UTN). Mi portafolio está compuesto por proyectos en los que he buscado enfrentarme a problemas reales, en un intento por ganar experiencia y conocimiento. ¡Te invito a verlos!",
+      "button1": "Ver proyectos",
+      "button2": "Contactarme"
+    },
+    "about": {
+      "title": "Sobre mi",
+      "technologies": "Tecnologías:",
+      "education": {
+        "subtitle": "Formacion: ",
+        "text":"Tecnicatura universitaria en programación - Universidad Tecnológica Nacional [UTN] (En progreso)"
+        },
+      "languages": {
+        "subtitle": "Idiomas",
+        "english": "Inglés avanzado (B2)",
+        "spanish": "Español nativo"
+      },
+      "text": "Además de mis estudios universitarios llevo casi 3 años estudiando programación por mi cuenta. Mi stack actual me posiciona como desarrollador Front-End pero tengo interés en ser FullStack, por lo tanto, estoy aprendiendo SQL y Node.js, también conozco lo más básico de Python. Soy una persona bastante creativa y resolutiva, cuento con más de 4 años de experiencia en customer service y 3 años como coordinador de logística para un equipo técnico, esto ha permitido que mis habilidades blandas estén bastante desarrolladas pudiendo comunicarme de manera efectiva por cualquier medio y con altas capacidades de trabajo colaborativo."
+    },
+    "projects": {
+      "title": "Proyectos",
+      "trackingTool": {
+        "subtitle": "Tracking Tool",
+        "text": "Herramienta para mi trabajo actual que permite arrojar dos hojas de Excel y mostrar información en pantalla en un orden específico."
+      },
+      "chromeExtension": {
+        "subtitle": "Extension Google Chrome",
+        "text": "Herramienta para mi trabajo actual que obtiene información cuando determinados elementos de la página están en pantalla y devuelve información dentro de la misma página."
+      },
+      "metronome": {
+        "subtitle": "Metrónomo",
+        "text": "Aplicación que contiene un metrónomo y un generador de números aleatorios para fines prácticos, musicales."
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "labels": {
+        "name": "Nombre:",
+        "email": "Correo electrónico:",
+        "message": "Mensaje:"
+      },
+      "button": "Enviar"
+    }
+  }

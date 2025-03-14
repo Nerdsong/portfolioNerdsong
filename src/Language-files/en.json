@@ -1,0 +1,55 @@
+{
+    "header": {
+      "nav": {
+        "home": "Home",
+        "about": "About Me",
+        "projects": "Projects",
+        "contact": "Contact"
+      }
+    },
+    "home": {
+      "title": "Nelson Adarmes",
+      "subtitle": "FrontEnd Web Developer",
+      "text": "I am a student in the Programming Technician program at the National Technological University (UTN). My portfolio consists of projects where I have sought to tackle real-world problems, aiming to gain experience and knowledge. I invite you to check them out!",
+      "button1": "View Projects",
+      "button2": "Contact Me"
+    },
+    "about": {
+      "title": "About Me",
+      "technologies": "Technologies:",
+      "education": {
+        "subtitle": "Education: ",
+        "text": "Technician in Programming - National Technological University [UTN] (In Progress)"
+        },
+      "languages": {
+        "subtitle": "Languages:",
+        "english": "Advanced English (B2)",
+        "spanish": "Native Spanish"
+      },
+      "text": "In addition to my university studies, I have been studying programming on my own for almost 3 years. My current stack positions me as a Front-End developer, but I am interested in becoming FullStack, so I am learning SQL and Node.js. I also know the basics of Python. I am a very creative and resourceful person, with over 4 years of experience in customer service and 3 years as a logistics coordinator for a technical team. This has allowed me to develop strong soft skills, enabling me to communicate effectively through any medium and collaborate efficiently."
+    },
+    "projects": {
+      "title": "Projects",
+      "trackingTool": {
+        "subtitle": "Tracking Tool",
+        "text": "A tool for my current job that receives two Excel sheets and displays information on the screen in a specific order."
+      },
+      "chromeExtension": {
+        "subtitle": "Google Chrome Extension",
+        "text": "A tool for my current job that retrieves information when certain elements are on the page and displays it within the same page."
+      },
+      "metronome": {
+        "subtitle": "Metronome",
+        "text": "An application that includes a metronome and a random number generator for practical, musical purposes."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "labels": {
+        "name": "Name:",
+        "email": "Email:",
+        "message": "Message:"
+      },
+      "button": "Send"
+    }
+  }

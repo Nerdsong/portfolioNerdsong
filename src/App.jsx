@@ -7,6 +7,7 @@ import Header from './Pages/Header/Header'
 import Projects from './Pages/Projects/Projects'
 import AboutMe from './Pages/AboutMe/AboutMe'
 import ContactMe from './Pages/ContactMe/ContactMe'
+import './i18n';
 
 
 function App() {

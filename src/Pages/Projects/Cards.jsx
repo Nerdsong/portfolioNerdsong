@@ -1,28 +1,28 @@
 import React from 'react'
 import Card from './Card'
-
+import { useTranslation } from 'react-i18next';
 
 
 function Cards() {
-
+  const {t} = useTranslation();
   return (
     <div className= 'cards-proyects-container'>
         <Card 
-          name="Tracking Tool" 
+          name={t("projects.trackingTool.subtitle")} 
           image="/projectsFiles/projectImages/Tracking-tool-image.png"
-          description="Herramienta para mi trabajo actual que permite arrojar dos hojas de excel y mostrar informacion en pantalla en un orden especifico"
+          description={t("projects.trackingTool.text")} 
           rute="/Projects-details/Tracking-tool"
           />
         <Card 
-          name="Extension Google Chrome" 
+          name={t("projects.chromeExtension.subtitle")}
           image="src/Pages/Home/Projects/Tracking-tool-img.png"
-          description="Herramienta para mi trabajo actual que obtiene informacion cuando determinados elementos de la página estan en pantalla y devuelve informacion dentro de la misma pagina"
+          description={t("projects.chromeExtension.text")}
           rute="/Projects-details/Extension-google-chrome"
         />
         <Card 
-          name="Metronomo" 
+          name={t("projects.metronome.subtitle")}
           image="/projectsFiles/projectImages/Metronomo-image.png"
-          description="Aplicacion que contiene un metronomo y un generador de números aleatorios para fines prácticos, musicales"
+          description={t("projects.metronome.text")}
           rute="/Projects-details/Metronomo"
         />
     </div>
