@@ -1,4 +1,4 @@
-import { useState, useEffect }  from 'react'
+import { useState, useEffect, useRef }  from 'react'
 import { Route, Routes,useLocation } from 'react-router-dom'
 import './App.css'
 import Home from './Pages/Home/Home'
@@ -11,11 +11,14 @@ import './i18n';
 
 
 function App() {
-  const location = useLocation(); // Obtiene la ubicación actual (ruta)
-  const [showVideo, setShowVideo] = useState(false); // Estado para controlar la visibilidad del video
+  const location = useLocation(); 
+  const [showVideo, setShowVideo] = useState(false); 
+  const videoRef = useRef();
 
   useEffect(() => {
+    const video = videoRef.current
     // Cuando la ruta cambia, muestra el video
+    video.play()//sometimes the video is stooped due to browser configuration when it has too much time in the background 
     setShowVideo(true);
 
     // Después de 1 segundo, oculta el video nuevamente
@@ -38,6 +41,7 @@ function App() {
           <Route path="/Contact-me" element = {<ContactMe/>}/>
         </Routes>
         <video
+    ref={videoRef}
     autoPlay
     loop
     muted
