@@ -53,7 +53,7 @@ function AboutMe() {
           </div>
           <div className="details-container" id="cv-container">
             <h3>CV:</h3>
-            <a href="/CV Nelson Adarmes.pdf" className="icon" download="CV Nelson Adarmes.pdf"></a>
+            <a href={t('about.cv.url')} className="icon" download={t('about.cv.url')}></a>
           </div>
           <div className="details-container">
             <p>{t('about.text')}</p>

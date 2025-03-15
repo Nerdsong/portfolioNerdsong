@@ -10,7 +10,9 @@
     "home": {
       "title": "Nelson Adarmes",
       "subtitle": "Desarrollador web FrontEnd",
-      "text": "Soy estudiante de la carrera de tecnicatura en programación de la Universidad Tecnológica Nacional (UTN). Mi portafolio está compuesto por proyectos en los que he buscado enfrentarme a problemas reales, en un intento por ganar experiencia y conocimiento. ¡Te invito a verlos!",
+      "text1": "¡Bienvenido a mi portafolio!",
+      "text2": "Este espacio muestra mi trayecto como programador, con proyectos en los que he enfrentado desafíos reales y desarrollado mis habilidades.",
+      "text3": "No dudes en chequear mi trabajo y contáctame si deseas colaborar en algún proyecto o hablar sobre oportunidades laborales.",
       "button1": "Ver proyectos",
       "button2": "Contactarme"
     },
@@ -19,12 +21,16 @@
       "technologies": "Tecnologías:",
       "education": {
         "subtitle": "Formacion: ",
-        "text":"Tecnicatura universitaria en programación - Universidad Tecnológica Nacional [UTN] (En progreso)"
+        "text":"Tecnicatura universitaria en programación - Universidad Tecnológica Nacional [UTN - Argentina] (En progreso)"
         },
       "languages": {
         "subtitle": "Idiomas",
         "english": "Inglés avanzado (B2)",
         "spanish": "Español nativo"
+      },
+      "cv":{
+        "url": "/CV-NelsonAdarmes-Spanish.pdf",
+        "fileName": "CV-NelsonAdarmes-Spanish.pdf"
       },
       "text": "Además de mis estudios universitarios llevo casi 3 años estudiando programación por mi cuenta. Mi stack actual me posiciona como desarrollador Front-End pero tengo interés en ser FullStack, por lo tanto, estoy aprendiendo SQL y Node.js, también conozco lo más básico de Python. Soy una persona bastante creativa y resolutiva, cuento con más de 4 años de experiencia en customer service y 3 años como coordinador de logística para un equipo técnico, esto ha permitido que mis habilidades blandas estén bastante desarrolladas pudiendo comunicarme de manera efectiva por cualquier medio y con altas capacidades de trabajo colaborativo."
     },

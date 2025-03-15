@@ -1,6 +1,8 @@
 import React, {useRef, useState} from 'react'
 import EmailTrace  from '/src/assets/emailRayTrace.json'
 import Sent from '/src/assets/sent.json'
+import handsTyping from '/src/assets/handsTyping.json'
+import robotCheck from '/src/assets/robot.json'
 import emailjs from '@emailjs/browser'
 import Lottie from 'react-lottie'
 import "./ContactMe.css"
@@ -40,13 +42,14 @@ function ContactMe() {
       );
     }
     else{
-      setCaptchaValido(false)
+      setCaptchaValid(false)
+      setAnimation(robotCheck)
     }
 
     
   };
 
-  const [animation, setAnimation] = useState(EmailTrace); 
+  const [animation, setAnimation] = useState(handsTyping); 
   const [loop, setLoop] = useState(true); 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -60,7 +63,7 @@ function ContactMe() {
 
     // Revert to default animation after 3 seconds
     setTimeout(() => {
-      setAnimation(EmailTrace);
+      setAnimation(handsTyping);
       setLoop(true);
       setIsSubmitted(false);
     }, 4000);

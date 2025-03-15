@@ -28,7 +28,11 @@ function MainContent() {
               <div className = "main-intro">
               <h1>Nelson Adarmes</h1>
               <h3>{t('home.subtitle')}</h3>
-              <p>{t('home.text')}</p>
+              <div className='text-wrapper'>
+                <p>{t('home.text1')}</p>
+                <p>{t('home.text2')}</p>
+                <p>{t('home.text3')}</p>
+              </div>
               <button onClick={() => navigate('/Projects')}>{t('home.button1')}</button>
                <button onClick={() => navigate('/Contact-me')}>{t('home.button2')}</button>
           </div>

@@ -10,7 +10,9 @@
     "home": {
       "title": "Nelson Adarmes",
       "subtitle": "FrontEnd Web Developer",
-      "text": "I am a student in the Programming Technician program at the National Technological University (UTN). My portfolio consists of projects where I have sought to tackle real-world problems, aiming to gain experience and knowledge. I invite you to check them out!",
+      "text1": "Welcome to my portfolio!",
+      "text2": "This space showcases my journey as a programmer, featuring projects where I've tackled real-world challenges and developed my skills.", 
+      "text3": "Feel free to explore my work and reach out if you'd like to collaborate on a project or discuss job opportunities.",
       "button1": "View Projects",
       "button2": "Contact Me"
     },
@@ -19,15 +21,18 @@
       "technologies": "Technologies:",
       "education": {
         "subtitle": "Education: ",
-        "text": "Technician in Programming - National Technological University [UTN] (In Progress)"
+        "text": "Associate Degree in Programming - National Technological University [UTN - Argentina] (In Progress)"
         },
       "languages": {
         "subtitle": "Languages:",
         "english": "Advanced English (B2)",
         "spanish": "Native Spanish"
       },
-      "text": "In addition to my university studies, I have been studying programming on my own for almost 3 years. My current stack positions me as a Front-End developer, but I am interested in becoming FullStack, so I am learning SQL and Node.js. I also know the basics of Python. I am a very creative and resourceful person, with over 4 years of experience in customer service and 3 years as a logistics coordinator for a technical team. This has allowed me to develop strong soft skills, enabling me to communicate effectively through any medium and collaborate efficiently."
-    },
+      "cv":{
+        "url": "/CV-NelsonAdarmes-English.pdf",
+        "fileName": "CV-NelsonAdarmes-English.pdf"
+      },
+      "text": "In addition to my university studies, I have been self-studying programming for nearly 3 years. My current skill set positions me as a Front-End Developer, but I am aspiring to become a FullStack Developer. To achieve this, I am actively learning SQL and Node.js, and I also have a foundational understanding of Python. I am a highly creative and resourceful individual with over 4 years of experience in customer service and 3 years as a logistics coordinator for a technical team. These roles have allowed me to develop strong soft skills, including effective communication across various mediums and excellent collaborative abilities." },
     "projects": {
       "title": "Projects",
       "content": [

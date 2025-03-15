@@ -33,7 +33,7 @@
     margin-bottom: 3.125rem; 
   }
   
-  .intro-container p {
+  .text-wrapper {
     font-weight: 300;
     background-color: #04041186;
     border-color: #880e0e;
@@ -43,6 +43,9 @@
     padding: 1.25em;
     width: 45vw;
     height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
   }
   
   .intro-container button {
@@ -98,7 +101,7 @@
       
     }
 
-    .intro-container p {
+    .text-wrapper  {
       border-width: 1px;
       border-radius: 0.45rem; /* 12px */
       padding: 0.85rem; /* 20px */
@@ -142,7 +145,7 @@
       
     }
 
-    .intro-container p {
+    .text-wrapper {
       border-width: 1px;
       border-radius: 0.45rem; /* 12px */
       padding: 0.85rem; /* 20px */
@@ -185,7 +188,7 @@
       
     }
 
-    .intro-container p {
+    .text-wrapper {
       border-width: 1px;
       border-radius: 0.45rem; /* 12px */
       padding: 0.85rem; /* 20px */
@@ -227,7 +230,7 @@
       
     }
 
-    .intro-container p {
+    .text-wrapper  {
       border-width: 1px;
       border-radius: 0.45rem; /* 12px */
       padding: 0.85rem; /* 20px */
