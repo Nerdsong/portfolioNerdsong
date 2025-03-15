@@ -1,0 +1,5 @@
+Este portfolio en si mismo es uno de mis proyectos más grandes y más recientes, es mi primera SPA hecha con React, y CSS puro. Me permitió encarar otras areas de la creación de páginas web como el diseño, formularios, routing, animaciones con lottie files  y desarrollar la identidad de mi proyecto como programador..  
+
+Pude llevar a cabo el uso de hooks básicos como useRef, useState, useEffect y experimentar con useContext para luego entender que este ultimo no era necesario en lo que lo estaba aplicando. En general me enfrenté a varios problemas durante el desarrollo que me permitieron afianzar los conocimientos de React y entender mejor como esta librería permite tener más control del renderizado de una página con el virtual DOM y las diferencias que se generan a partir de esto si se contrasta con el desarrollo en JavaScript puro..  
+
+ 

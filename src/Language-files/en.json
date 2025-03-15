@@ -30,18 +30,110 @@
     },
     "projects": {
       "title": "Projects",
-      "trackingTool": {
-        "subtitle": "Tracking Tool",
-        "text": "A tool for my current job that receives two Excel sheets and displays information on the screen in a specific order."
-      },
-      "chromeExtension": {
-        "subtitle": "Google Chrome Extension",
-        "text": "A tool for my current job that retrieves information when certain elements are on the page and displays it within the same page."
-      },
-      "metronome": {
-        "subtitle": "Metronome",
-        "text": "An application that includes a metronome and a random number generator for practical, musical purposes."
-      }
+      "content": [
+          {
+            "id": "Portafolio",
+            "rute": "/Projects-details/Portafolio",
+            "projectName": "Portfolio",
+            "shortDescription": "Some details about this portfolio.",
+            "longDescription": "/projectsFiles/descriptions/en/Portfolio.txt",
+            "images": [
+              {
+                "src": "/projectsFiles/projectImages/Portfolio-image.png",
+                "alt": "Image 1 carousel"
+              }
+            ],
+            "aditionalContent": [
+              {
+                "type": "link",
+                "name": "Repository",
+                "url": "https://github.com/Nerdsong/portfolioNerdsong",
+                "jsonPathKey": "projects.content.0.aditionalContent"
+              }
+            ]
+          },
+          {
+            "id": "Tracking-tool",
+            "rute": "/Projects-details/Tracking-tool",
+            "projectName": "Tracking Tool",
+            "shortDescription": "A tool for my current job that allows generating two Excel sheets and displaying information on the screen in a specific order.",
+            "longDescription": "/projectsFiles/descriptions/en/Tracking-tool.txt",
+            "images": [
+              {
+                "src": "/projectsFiles/projectImages/Tracking-tool-image.png",
+                "alt": "Image 1 carousel"
+              },
+              {
+                "src": "/projectsFiles/projectImages/Tracking-tool-image2.png",
+                "alt": "Image 2 carousel"
+              }
+            ],
+            "aditionalContent": [
+              {
+                "type": "file",
+                "name": "Excel1.xls",
+                "url": "projectsFiles/demoFiles/Technicians_demo.xlsx",
+                "downloadName": "Technicians_demo.xlsx",
+                "jsonPathKey": "projects.content.1.aditionalContent"
+              },
+              {
+                "type": "file",
+                "name": "Excel2.xls",
+                "url": "projectsFiles/demoFiles/dc_export_services_data_demo.xls",
+                "downloadName": "dc_export_services_data_demo.xls",
+                "jsonPathKey": "projects.content.1.aditionalContent"
+              },
+              {
+                "type": "link",
+                "name": "Deployment",
+                "url": "https://nerdsong.github.io/TrackingBoard/",
+                "jsonPathKey": "projects.content.1.aditionalContent"
+              },
+              {
+                "type": "link",
+                "name": "Repository",
+                "url": "https://github.com/Nerdsong/TrackingBoard",
+                "jsonPathKey": "projects.content.1.aditionalContent"
+              }
+            ]
+          },
+          {
+            "id": "Extension-google-chrome",
+            "rute": "/Projects-details/Extension-google-chrome",
+            "projectName": "Google Chrome Extension",
+            "shortDescription": "A tool for my current job that retrieves information when certain elements of the page are on the screen and returns information within the same page.",
+            "longDescription": "/projectsFiles/descriptions/en/Google-extension.txt",
+            "images": [],
+            "aditionalContent": []
+          },
+          {
+            "id": "Metronomo",
+            "rute": "/Projects-details/Metronomo",
+            "projectName": "Metronome",
+            "shortDescription": "An application that includes a metronome and a random number generator for practical, musical purposes.",
+            "longDescription": "/projectsFiles/descriptions/en/Metronomo.txt",
+            "images": [
+              {
+                "src": "/projectsFiles/projectImages/Metronomo-image.png",
+                "alt": "Image 1 carousel"
+              }
+            ],
+            "aditionalContent": [
+              {
+                "type": "link",
+                "name": "Deployment",
+                "url": "https://nerdsong.github.io/MetronomoHobosAcademy3/",
+                "jsonPathKey": "projects.content.3.aditionalContent"
+              },
+              {
+                "type": "link",
+                "name": "Repository",
+                "url": "https://github.com/Nerdsong/MetronomoHobosAcademy3",
+                "jsonPathKey": "projects.content.3.aditionalContent"
+              }
+            ]
+          }
+      ]
     },
     "contact": {
       "title": "Contact",

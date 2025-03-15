@@ -53,5 +53,20 @@
             {"type": "link", "name": "Deploy", "url": "https://nerdsong.github.io/MetronomoHobosAcademy3/"},
             {"type": "link", "name": "Repositorio", "url": "https://github.com/Nerdsong/MetronomoHobosAcademy3"}
         ]
+    },
+    {   
+        "id": "Portfolio",
+        "title": "Portafolio",
+        "images": [
+            {
+                "src": "/projectsFiles/projectImages/Portfolio-image.png",
+                "alt": "Image 1 carousel"
+            }
+            
+        ],
+        "description": "/projectsFiles/descriptions/Portfolio.txt",
+        "aditionalContent": [
+            {"type": "link", "name": "Repositorio", "url": "https://github.com/Nerdsong/portfolioNerdsong"}
+        ]
     }
 ]

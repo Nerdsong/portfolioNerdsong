@@ -1,0 +1,7 @@
+This is one of my first personal projects. It is a metronome whose functionality is to help musicians maintain tempo during practice sessions, meaning playing at a certain "speed" according to the "bpm" (beats per minute)..  
+
+Metronomes are quite common tools in music. They function as an audible "grid" that allows subdividing a fraction of time based on the desired speed for playing the instrument..  
+
+In addition to the metronome, I created a random number generator that aims to produce all possible combinations of numbers whose sum is 16, 32, or another combination chosen by the user. This functionality is a rhythmic practice exercise requested by a friend, which also served as a logic exercise for me..  
+
+The repository is available at the following link:
