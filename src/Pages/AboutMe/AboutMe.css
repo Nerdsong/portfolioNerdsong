@@ -58,10 +58,7 @@
     flex-grow: 1;
     border: 2px solid rgba(106, 250, 149, 0.062);
     color: #f7f0e3;
-    background: radial-gradient(circle at 24% -240%,rgba(255, 219, 146, 0.966)49.6%, /* Start color with a smaller radius */
-    rgba(240, 29, 29, 0.76) 49%, /* Intermediate color stop */
-    rgba(68, 68, 68, 0.178)70%);;
-     /* Borde más claro y fino */
+    background: rgba(80, 54, 54, 0.267);
      box-shadow: -0.9375em 1.375em 1.875em -1.25em #0f0f0f; /* Sombra principal suave */
       z-index: 5;
       backdrop-filter: blur(2px);

@@ -94,9 +94,7 @@
     flex-grow: 1;
     margin: 0em 0em 2em;
     color: #f7f0e3;
-    background: radial-gradient(circle at 24% -233%,rgba(255, 219, 146, 0.966)49.6%, /* Start color with a smaller radius */
-    rgba(240, 29, 29, 0.87) 49%, /* Intermediate color stop */
-    rgba(58, 58, 58, 0.089)70%);
+    background: rgba(80, 54, 54, 0.267);
      /* Borde más claro y fino */
     box-shadow: -0.9375em 1.375em 1.875em -1.25em #0f0f0f; /* Sombra principal suave */
     z-index: 5;
@@ -115,9 +113,7 @@
     margin-bottom: 0.25rem; /* 20px */
     transition: all 0.4s ease-in-out;
     width: 100%;
-    background: radial-gradient(circle at 40% -703%,rgba(255, 219, 146, 0)29.6%, /* Start color with a smaller radius */
-    rgba(240, 113, 113, 0.288) 29%, /* Intermediate color stop */
-    rgba(39, 39, 39, 0.062)70%);
+    background: rgba(70, 68, 68, 0.267);
     border: none; 
     box-shadow: 0em 0.625em 1.5em -0.625em #000000a6; /* Sombra principal suave */
     z-index: 6;
@@ -277,10 +273,7 @@
       margin-left: 0;
       border: 1px solid rgba(106, 250, 149, 0.062);
       color: #f7f0e3;
-       background: radial-gradient(circle at 24% -200%,rgba(255, 219, 146, 0.966)49.6%, /* Start color with a smaller radius */
-    rgba(240, 29, 29, 0.76) 49%, /* Intermediate color stop */
-    rgba(126, 126, 126, 0.178)70%);
-     /* Borde más claro y fino */
+      background: rgba(80, 54, 54, 0.267);
      box-shadow: -0.9375em 1.375em 1.875em -1.25em #0f0f0f; /* Sombra principal suave */
       z-index: 5;
       backdrop-filter: blur(2px);

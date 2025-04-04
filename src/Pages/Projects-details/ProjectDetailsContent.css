@@ -6,17 +6,14 @@
     justify-content: space-around;
     width: 70%;
     border-radius: 1.25rem; /* 20px */
-    border: 2px solid rgba(106, 250, 149, 0.062);
     border-style: ridge;
     padding-left: 3.125rem; /* 50px */
     padding-right: 3.125rem; /* 50px */
     text-align: justify;
     font-weight: bold;
     color: #f7f0e3;
-    background: radial-gradient(circle at 24% -210%,rgba(255, 219, 146, 0.966)49.6%, /* Start color with a smaller radius */
-    rgba(240, 29, 29, 0.76) 49%, /* Intermediate color stop */
-    rgba(68, 68, 68, 0.178)68%);
-     /* Borde más claro y fino */
+    background: rgba(80, 54, 54, 0.267);
+    border: 1px solid rgba(106, 250, 149, 0.062);
      box-shadow: -0.9375em 1.375em 1.875em -1.25em #0f0f0f; /* Sombra principal suave */
       z-index: 5;
       backdrop-filter: blur(2px);
@@ -88,6 +85,14 @@
   .www-icon:hover{
     animation: none;
     background-image: url('/images/icons/www-icon-green.png')
+  }
+
+  @media (max-width: 480px){
+    .containter-project-content{
+      padding-left: 1.125rem; /* 50px */
+      padding-right: 1.125rem;
+      width: 80%;
+    }
   }
 
  
