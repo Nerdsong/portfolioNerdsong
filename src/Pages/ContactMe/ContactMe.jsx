@@ -80,7 +80,8 @@ function ContactMe() {
 
 
   return (
-
+  <>
+  <div className="main-container4">
     <div className ="contactme-container">
       <div className="title-section4">
         <h1>{t('contact.title')}</h1>
@@ -95,7 +96,7 @@ function ContactMe() {
 
           <label >{t('contact.labels.message')}</label><br />
           <textarea id="mensaje" name="message" rows="5" className= "input-text" required  ></textarea><br /><br />
-          <ReCAPTCHA 
+          <ReCAPTCHA className='captcha'
             ref = {captcha}
             sitekey="6LfR9_MqAAAAAESA4d7U4JDBkjpavzBHmdmg8S-W" 
             onChange={onChange}
@@ -117,7 +118,9 @@ function ContactMe() {
             </div>
         </div>
       </div>
-    </div> 
+      </div> 
+    </div>
+  </>
   )
 }
 

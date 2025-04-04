@@ -36,6 +36,37 @@
     "projects": {
       "title": "Projects",
       "content": [
+        {
+          "id": "Weather-app",
+          "rute": "/Projects-details/Weather-app",
+          "projectName": "Weather App",
+          "shortDescription": "Weather App fetching data from Weather API.",
+          "longDescription": "/projectsFiles/descriptions/en/Weather-app.txt",
+          "images": [
+            {
+              "src": "/projectsFiles/projectImages/Weather-app-image.png",
+              "alt": "Image 1 carousel"
+            },
+            {
+              "src": "/projectsFiles/projectImages/Weather-app-image2.png",
+              "alt": "Image 2 carousel"
+            }
+          ],
+          "aditionalContent": [
+            {
+            "type": "link",
+            "name": "Deployment",
+            "url": "https://weather-app-theta-seven-13.vercel.app/",
+            "jsonPathKey": "projects.content.0.aditionalContent"
+            },
+            {
+              "type": "link",
+              "name": "Repository",
+              "url": "https://github.com/Nerdsong/weatherApp",
+              "jsonPathKey": "projects.content.0.aditionalContent"
+            }
+          ]
+        },
           {
             "id": "Portafolio",
             "rute": "/Projects-details/Portafolio",
@@ -53,7 +84,7 @@
                 "type": "link",
                 "name": "Repository",
                 "url": "https://github.com/Nerdsong/portfolioNerdsong",
-                "jsonPathKey": "projects.content.0.aditionalContent"
+                "jsonPathKey": "projects.content.1.aditionalContent"
               }
             ]
           },
@@ -79,26 +110,26 @@
                 "name": "Excel1.xls",
                 "url": "projectsFiles/demoFiles/Technicians_demo.xlsx",
                 "downloadName": "Technicians_demo.xlsx",
-                "jsonPathKey": "projects.content.1.aditionalContent"
+                "jsonPathKey": "projects.content.2.aditionalContent"
               },
               {
                 "type": "file",
                 "name": "Excel2.xls",
                 "url": "projectsFiles/demoFiles/dc_export_services_data_demo.xls",
                 "downloadName": "dc_export_services_data_demo.xls",
-                "jsonPathKey": "projects.content.1.aditionalContent"
+                "jsonPathKey": "projects.content.2.aditionalContent"
               },
               {
                 "type": "link",
                 "name": "Deployment",
                 "url": "https://nerdsong.github.io/TrackingBoard/",
-                "jsonPathKey": "projects.content.1.aditionalContent"
+                "jsonPathKey": "projects.content.2.aditionalContent"
               },
               {
                 "type": "link",
                 "name": "Repository",
                 "url": "https://github.com/Nerdsong/TrackingBoard",
-                "jsonPathKey": "projects.content.1.aditionalContent"
+                "jsonPathKey": "projects.content.2.aditionalContent"
               }
             ]
           },
@@ -128,13 +159,13 @@
                 "type": "link",
                 "name": "Deployment",
                 "url": "https://nerdsong.github.io/MetronomoHobosAcademy3/",
-                "jsonPathKey": "projects.content.3.aditionalContent"
+                "jsonPathKey": "projects.content.4.aditionalContent"
               },
               {
                 "type": "link",
                 "name": "Repository",
                 "url": "https://github.com/Nerdsong/MetronomoHobosAcademy3",
-                "jsonPathKey": "projects.content.3.aditionalContent"
+                "jsonPathKey": "projects.content.4.aditionalContent"
               }
             ]
           }

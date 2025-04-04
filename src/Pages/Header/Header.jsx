@@ -19,7 +19,7 @@ function Header(props) {
   return (
     <div className="header">
       <div>
-        <img src="/images/logo.png" className="logo-img" alt="Logo" />
+        
       </div>
       <div className="nav-container">
         <nav>

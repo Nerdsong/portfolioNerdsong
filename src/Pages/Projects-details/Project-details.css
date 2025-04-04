@@ -1,79 +1,15 @@
-    .main-container-project-details {
-    width: 100%;
-    min-height: 100vh;
-    background-color:  #040411;
-    color: #f5f5f5 ;
-    text-shadow: 0px 0px 3px #040411;
-     /* Mantiene la imagen fija al hacer scroll */
-    z-index: 1; /* Menor que el header */
-     /* Para controlar el stacking context */
-    display: flex;
-    justify-content: center;
-     }
 
-    .project-details{
-    margin-top:100px;
-    }
-
-    .description-text{
-      font-weight: 300;
-    }
-
-    .description-text p {
-      margin: 1.5rem;
-    }
-
-  
-  .containter-project-content h1{
-    align-self: center;
-    font-style: italic;
-     }
-
-  .aditional-content{
-    display: flex;
-    justify-content: start;
-    flex-wrap: wrap;
-    margin-top: 3em;
-  }
-
-  .aditional-content-element{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0em 2em 2em;
-  }
-
-  .aditional-content-element p{
-    margin: 1em 0em;
-  }
-  
-    .file-icon{
-      background-image: url('/images/icons/file-icon-red.png');
-      width: 3em; 
-      height: 3em; 
-      background-size: contain;
-      margin: 0rem; 
-      transition: 0.4s ease;
-      display: block;
-    }
-
-    .file-icon:hover{
-      animation: none;
-      background-image: url('/images/icons/file-icon-green.png')
-    }
-
-    .www-icon{
-      background-image: url('/images/icons/www-icon-red.png');
-      width: 3em; 
-      height: 3em; 
-      background-size: contain;
-      margin: 0rem; 
-      transition: 0.4s ease;
-      display: block;
-    }
-
-    .www-icon:hover{
-      animation: none;
-      background-image: url('/images/icons/www-icon-green.png')
-    }
+       .main-container-project-details {
+        width: 100%;
+        height: auto;
+        background-color:  #040411;   
+        color: #f5f5f5 ;
+        text-shadow: 0px 0px 3px #040411;
+         /* Mantiene la imagen fija al hacer scroll */
+        z-index: 0; /* Menor que el header */
+         /* Para controlar el stacking context */
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        overflow-y: auto
+         }

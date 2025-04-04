@@ -1,16 +1,33 @@
+.main-container2 {
+  width: 100%;
+  height: 100dvh;
+  background-color: #040411;
+  color: #f7f0e3;
+  text-shadow: 0 0 3px #040411;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+
 .aboutme-container {
+    width: 88vw;
+    height: auto;
     background-color: #040411;
     color: #f5f5f5;
     display: flex;
     flex-direction: column;
-    padding: 4rem 4.25rem 0rem; 
-    height: 100vh;
+    padding: 4rem 0rem;
+    box-sizing: border-box;
   }
   
   .title-section3 {
     align-self: center;
-    margin: 0 0 6em;
+    margin: 0 0 3em;
     font-style: italic; 
+    color: #f7f0e3;
   }
   
   .aboutme-content {
@@ -24,23 +41,32 @@
     flex-grow: 0;
     margin: 0 3.125rem; /* 50px */
     border-radius: 0.625em; /* 10px */
-    border-color: #880e0e;
-    border-style: solid;
-    border-width: 2px;
+    border: 1px solid rgba(58, 9, 9, 0.18);
+    opacity: 0.7;
+    z-index: 500;
+    box-shadow: -0.9375em 1.375em 1.875em -1.25em #000000; 
   }
   
   .aboutme-details {
     display: flex;
     flex-direction: column;
     font-weight: 300;
-    background-color: #04041186;
-    border-color: #880e0e;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 0.75em; /* 12px */
-    padding: 1.25em; /* 20px */
-    width: 12.5em; /* 200px */
+    color: #f7f0e3;
+    border-radius: 0.75em;
+    padding: 1.25em;
+    width: 12.5em;
     flex-grow: 1;
+    border: 2px solid rgba(106, 250, 149, 0.062);
+    color: #f7f0e3;
+    background: radial-gradient(circle at 24% -240%,rgba(255, 219, 146, 0.966)49.6%, /* Start color with a smaller radius */
+    rgba(240, 29, 29, 0.76) 49%, /* Intermediate color stop */
+    rgba(68, 68, 68, 0.178)70%);;
+     /* Borde más claro y fino */
+     box-shadow: -0.9375em 1.375em 1.875em -1.25em #0f0f0f; /* Sombra principal suave */
+      z-index: 5;
+      backdrop-filter: blur(2px);
+
+      -webkit-backdrop-filter: blur(2px); /* Para Safari */
   }
 
   .details-container{
@@ -108,7 +134,7 @@
 
     .aboutme-container {
       padding: 2rem; /* 100px */
-      height: auto;
+      overflow-y: auto;
     }
 
 
@@ -130,11 +156,19 @@
     }
 
     .aboutme-details{
-      border-width: 2px;
       border-radius: 0.75em; 
       padding: 1.25em; 
       width: 19rem; 
       box-sizing: content-box ;
+      border: 1px solid rgba(106, 250, 149, 0.062);
+      color: #f7f0e3;
+       background: radial-gradient(circle at 24% -200%,rgba(255, 219, 146, 0.966)49.6%, /* Start color with a smaller radius */
+    rgba(240, 29, 29, 0.76) 49%, /* Intermediate color stop */
+    rgba(126, 126, 126, 0.178)70%);
+     /* Borde más claro y fino */
+     box-shadow: -0.9375em 1.375em 1.875em -1.25em #0f0f0f; /* Sombra principal suave */
+      z-index: 5;
+      backdrop-filter: blur(2px);
     }
 
     .details-container{
@@ -170,6 +204,7 @@
     .aboutme-container {
       padding: 2rem; /* 100px */
       height: auto;
+      overflow-y: auto;
     }
 
 
@@ -196,6 +231,7 @@
       padding: 1.25em; 
       width: 19rem; 
       box-sizing: content-box ;
+      
     }
 
     .details-container{
@@ -230,6 +266,7 @@
     .aboutme-container {
       padding: 2rem; /* 100px */
       height: auto;
+      overflow-y: auto;
     }
 
 
@@ -292,6 +329,7 @@
     .aboutme-container {
       padding: 2rem; /* 100px */
       height: auto;
+      overflow-y: auto;
     }
 
     .title-section3 {
@@ -309,8 +347,6 @@
       flex-grow: 0;
       margin: 0 3.125rem; /* 50px */
       border-radius: 0.625em; /* 10px */
-      border-color: #880e0e;
-      border-style: solid;
       border-width: 2px;
       align-self: start;
     }
@@ -319,10 +355,6 @@
       display: flex;
       flex-direction: column;
       font-weight: 300;
-      background-color: #04041186;
-      border-color: #880e0e;
-      border-style: solid;
-      border-width: 2px;
       border-radius: 0.75em; /* 12px */
       padding: 1.25em; /* 20px */
       width: 12.5em; /* 200px */

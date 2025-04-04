@@ -38,13 +38,45 @@
       "title": "Proyectos",
       "content": [
         {
+          "id": "Weather-app",
+          "rute": "/Projects-details/Weather-app",
+          "projectName": "Aplicacion del clima",
+          "shortDescription": "Aplicación del clima que obtiene datos desde una API meteorológica.",
+          "longDescription": "/projectsFiles/descriptions/es/Weather-app.txt",
+          "images": [
+            {
+              "src": "/projectsFiles/projectImages/Weather-app-image.png",
+              "alt": "Image 1 carousel"
+            },
+            {
+              "src": "/projectsFiles/projectImages/Weather-app-image2.png",
+              "alt": "Image 1 carousel"
+            }
+          ],
+          "aditionalContent": [
+            {
+              "type": "link",
+              "name": "Deployment",
+              "url": "https://weather-app-theta-seven-13.vercel.app/",
+              "jsonPathKey": "projects.content.0.aditionalContent"
+              },
+              {
+                "type": "link",
+                "name": "Repositorio",
+                "url": "https://github.com/Nerdsong/weatherApp",
+                "jsonPathKey": "projects.content.0.aditionalContent"
+              }
+          ]
+        },
+        {
           "id": "Portafolio",
           "rute":"/Projects-details/Portafolio",
           "projectName": "Portafolio",
           "shortDescription": "Algunos detalles sobre este portafolio.",
           "longDescription": "/projectsFiles/descriptions/es/Portfolio.txt",
           "images": [
-              {"src": "/projectsFiles/projectImages/Portfolio-image.png","alt": "Image 1 carousel"}
+              {"src": "/projectsFiles/projectImages/Portfolio-image.png","alt": "Image 1 carousel"},
+              {"src": "/projectsFiles/projectImages/Portfolio-image2.png","alt": "Image 2 carousel"}
             ],
           "aditionalContent":[
             {"type": "link", "name": "Repositorio","jsonPathKey": "projects.content.0.aditionalContent", "url": "https://github.com/Nerdsong/portfolioNerdsong"}

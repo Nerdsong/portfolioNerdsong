@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Carousel from './Carousel'
-import "./ProjectDetailsContainer.css"
+import "./ProjectDetailsContent.css"
 import { useTranslation } from 'react-i18next'
 
 //
-function ProjectDetailsContainer({title,description,imagesSlides,aditionalContent=null}) {
+function ProjectDetailsContent({title,description,imagesSlides,aditionalContent=null}) {
 
   const {t} = useTranslation();
 
@@ -70,4 +70,4 @@ function ProjectDetailsContainer({title,description,imagesSlides,aditionalConten
  )
 }
 
-export default ProjectDetailsContainer
+export default ProjectDetailsContent

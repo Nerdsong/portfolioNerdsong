@@ -1,0 +1,93 @@
+
+
+   .containter-project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    border-radius: 1.25rem; /* 20px */
+    border: 2px solid rgba(106, 250, 149, 0.062);
+    border-style: ridge;
+    padding-left: 3.125rem; /* 50px */
+    padding-right: 3.125rem; /* 50px */
+    text-align: justify;
+    font-weight: bold;
+    color: #f7f0e3;
+    background: radial-gradient(circle at 24% -210%,rgba(255, 219, 146, 0.966)49.6%, /* Start color with a smaller radius */
+    rgba(240, 29, 29, 0.76) 49%, /* Intermediate color stop */
+    rgba(68, 68, 68, 0.178)68%);
+     /* Borde más claro y fino */
+     box-shadow: -0.9375em 1.375em 1.875em -1.25em #0f0f0f; /* Sombra principal suave */
+      z-index: 5;
+      backdrop-filter: blur(2px);
+  
+  }
+
+  .project-details{
+  margin-top:100px;
+  }
+
+  .description-text{
+    font-weight: 300;
+  }
+
+  .description-text p {
+    margin: 1.5rem;
+  }
+
+
+.containter-project-content h1{
+  align-self: center;
+  font-style: italic;
+   }
+
+.aditional-content{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 3em;
+}
+
+.aditional-content-element{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0em 2em 2em;
+}
+
+.aditional-content-element p{
+  margin: 1em 0em;
+}
+
+  .file-icon{
+    background-image: url('/images/icons/file-icon-red.png');
+    width: 3em; 
+    height: 3em; 
+    background-size: contain;
+    margin: 0rem; 
+    transition: 0.4s ease;
+    display: block;
+  }
+
+  .file-icon:hover{
+    animation: none;
+    background-image: url('/images/icons/file-icon-green.png')
+  }
+
+  .www-icon{
+    background-image: url('/images/icons/www-icon-red.png');
+    width: 3em; 
+    height: 3em; 
+    background-size: contain;
+    margin: 0rem; 
+    transition: 0.4s ease;
+    display: block;
+  }
+
+  .www-icon:hover{
+    animation: none;
+    background-image: url('/images/icons/www-icon-green.png')
+  }
+
+ 

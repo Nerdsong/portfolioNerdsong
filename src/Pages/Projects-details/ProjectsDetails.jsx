@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Project-details.css"
-import ProjectDetailsContainer from './ProjectDetailsContainer'
+import ProjectDetailsContent from './ProjectDetailsContent'
 import { useParams } from 'react-router-dom'
 import data from '../../Language-files/es.json'
 import { useTranslation } from 'react-i18next'
@@ -15,11 +15,13 @@ function ProjectsDetails() {
   const projectToRender = data.projects.content.find((dataItem) => dataItem.id === projectName);
 
   const projectIndex = data.projects.content.findIndex((dataItem) => dataItem.id === projectName)
+
+  console.log(projectToRender.images)
     
     if(projectToRender !== undefined){
       return(
         <div className = "main-container-project-details ">     
-          <ProjectDetailsContainer 
+          <ProjectDetailsContent 
             title= {t(`projects.content.${projectIndex}.projectName`)}
             description= {t(`projects.content.${projectIndex}.longDescription`)}
             imagesSlides={projectToRender.images}

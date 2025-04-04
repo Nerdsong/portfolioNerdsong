@@ -7,6 +7,7 @@ import Header from './Pages/Header/Header'
 import Projects from './Pages/Projects/Projects'
 import AboutMe from './Pages/AboutMe/AboutMe'
 import ContactMe from './Pages/ContactMe/ContactMe'
+import LightScene from './Pages/LightScene'
 import './i18n';
 
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/About-me" element = {<AboutMe/>}/>
           <Route path="/Contact-me" element = {<ContactMe/>}/>
         </Routes>
+        
         <video
     ref={videoRef}
     autoPlay

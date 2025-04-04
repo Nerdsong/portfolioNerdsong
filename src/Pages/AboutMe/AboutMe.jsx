@@ -1,17 +1,24 @@
 import React from 'react';
 import './AboutMe.css';
 import { useTranslation } from 'react-i18next';
+import LightScene from '../LightScene';
 
 function AboutMe() {
   const { t } = useTranslation();
 
   return (
+  <>
+   <div className="main-container2">
     <div className="aboutme-container">
+   
       <div className="title-section3">
         <h1>{t('about.title')}</h1>
       </div>
       <div className="aboutme-content">
         <img className="profile-photo" src="/images/AboutMePortfolio.jpg" alt="foto-nelson" />
+        <div className='perspective-shadow'>
+
+        </div>
         <div className="aboutme-details">
           <div className="details-container">
             <h3>{t('about.technologies')}</h3>
@@ -31,6 +38,10 @@ function AboutMe() {
               <div className="language-element">
                 <img className="icon-language" src="/images/icons/React-icon.png" alt="React-icon" />
                 <p>React</p>
+              </div>
+              <div className="language-element">
+                <img className="icon-language" src="/images/icons/TS-icon.png" alt="TS-icon" />
+                <p>Typescript</p>
               </div>
               <div className="language-element">
                 <img className="icon-language" src="/images/icons/C++-icon.png" alt="C++-icon" />
@@ -61,6 +72,9 @@ function AboutMe() {
         </div>
       </div>
     </div>
+    </div>
+  </>
+
   );
 }
 

@@ -1,0 +1,5 @@
+This application is built with TypeScript and React. It fetches data asynchronously from an external API based on the values entered by the user (city name). The app required detailed handling of date functions to manipulate the Epoch number and correctly display weather report data for upcoming hours in 3-hour intervals..  
+
+It also features an autocomplete option that suggests city names as the user types, based on the data provided by the API. The background updates dynamically to reflect the current weather conditions of the selected city..  
+
+The design is still in progress to make the app responsive and allow users to customize temperature units and language preferences. For now, it works in English and displays temperatures in Celsius.
