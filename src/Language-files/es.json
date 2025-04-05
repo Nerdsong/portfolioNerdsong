@@ -79,7 +79,7 @@
               {"src": "/projectsFiles/projectImages/Portfolio-image2.png","alt": "Image 2 carousel"}
             ],
           "aditionalContent":[
-            {"type": "link", "name": "Repositorio","jsonPathKey": "projects.content.0.aditionalContent", "url": "https://github.com/Nerdsong/portfolioNerdsong"}
+            {"type": "link", "name": "Repositorio","jsonPathKey": "projects.content.1.aditionalContent", "url": "https://github.com/Nerdsong/portfolioNerdsong"}
           ]
         },
         {
@@ -98,26 +98,26 @@
               "name": "Excel1.xls", 
               "url": "projectsFiles/demoFiles/Technicians_demo.xlsx", 
               "downloadName" : "Technicians_demo.xlsx", 
-              "jsonPathKey": "projects.content.1.aditionalContent" 
+              "jsonPathKey": "projects.content.2.aditionalContent" 
             },
             { 
               "type": "file", 
               "name": "Excel2.xls", 
               "url": "projectsFiles/demoFiles/dc_export_services_data_demo.xls", 
               "downloadName" : "dc_export_services_data_demo.xls", 
-              "jsonPathKey": "projects.content.1.aditionalContent"
+              "jsonPathKey": "projects.content.2.aditionalContent"
             },
             { 
               "type": "link", 
               "name": "Deployment", 
               "url": "https://nerdsong.github.io/TrackingBoard/", 
-              "jsonPathKey": "projects.content.1.aditionalContent"
+              "jsonPathKey": "projects.content.2.aditionalContent"
             },
             { 
               "type": "link", 
               "name": "Repositorio", 
               "url": "https://github.com/Nerdsong/TrackingBoard", 
-              "jsonPathKey": "projects.content.1.aditionalContent"
+              "jsonPathKey": "projects.content.2.aditionalContent"
             }
             ] 
         },
@@ -140,8 +140,8 @@
               {"src": "/projectsFiles/projectImages/Metronomo-image.png","alt": "Image 1 carousel"}
             ],
           "aditionalContent":[
-            {"type": "link", "name": "Deployment", "url": "https://nerdsong.github.io/MetronomoHobosAcademy3/", "jsonPathKey": "projects.content.3.aditionalContent" },
-            {"type": "link", "name": "Repositorio", "url": "https://github.com/Nerdsong/MetronomoHobosAcademy3", "jsonPathKey": "projects.content.3.aditionalContent" }
+            {"type": "link", "name": "Deployment", "url": "https://nerdsong.github.io/MetronomoHobosAcademy3/", "jsonPathKey": "projects.content.4.aditionalContent" },
+            {"type": "link", "name": "Repositorio", "url": "https://github.com/Nerdsong/MetronomoHobosAcademy3", "jsonPathKey": "projects.content.4.aditionalContent" }
           ]
         }
       ]
