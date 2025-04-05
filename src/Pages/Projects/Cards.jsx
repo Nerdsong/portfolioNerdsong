@@ -29,7 +29,7 @@ function Cards() {
           />
         <Card 
           name={t("projects.content.3.projectName")}
-          image="src/Pages/Home/Projects/Tracking-tool-img.png"
+          image="/projectsFiles/projectImages/GoogleExt-image1.png"
           description={t("projects.content.3.shortDescription")}
           rute="/Projects-details/Extension-google-chrome"
         />

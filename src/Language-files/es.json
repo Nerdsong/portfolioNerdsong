@@ -127,12 +127,17 @@
           "projectName": "Extension Google Chrome",
           "shortDescription": "Herramienta para mi trabajo actual que obtiene información cuando determinados elementos de la página están en pantalla y devuelve información dentro de la misma página.",
           "longDescription": "/projectsFiles/descriptions/es/Google-extension.txt",
-          "images":[],
+          "images":[
+            {"src": "/projectsFiles/projectImages/GoogleExt-image1.png", "alt": "Image 1 carousel"},
+            {"src": "/projectsFiles/projectImages/GoogleExt-image2.png", "alt": "Image 2 carousel"},
+            {"src": "/projectsFiles/projectImages/GoogleExt-image3.png", "alt": "Image 3 carousel"},
+            {"src": "/projectsFiles/projectImages/GoogleExt-image4.png", "alt": "Image 4 carousel"}
+          ],
           "aditionalContent":[] 
         },
         {
           "id": "Metronomo",
-          "rute":" /Projects-details/Metronomo",
+          "rute":"/Projects-details/Metronomo",
           "projectName": "Metrónomo",
           "shortDescription": "Aplicación que contiene un metrónomo y un generador de números aleatorios para fines prácticos, musicales.",
           "longDescription": "/projectsFiles/descriptions/es/Metronomo.txt",

@@ -139,7 +139,13 @@
             "projectName": "Google Chrome Extension",
             "shortDescription": "A tool for my current job that retrieves information when certain elements of the page are on the screen and returns information within the same page.",
             "longDescription": "/projectsFiles/descriptions/en/Google-extension.txt",
-            "images": [],
+            "images":[
+              {"src": "/projectsFiles/projectImages/GoogleExt-image1.png", "alt": "Image 1 carousel"},
+              {"src": "/projectsFiles/projectImages/GoogleExt-image2.png", "alt": "Image 2 carousel"},
+              {"src": "/projectsFiles/projectImages/GoogleExt-image3.png", "alt": "Image 3 carousel"},
+              {"src": "/projectsFiles/projectImages/GoogleExt-image4.png", "alt": "Image 4 carousel"}
+          
+            ],
             "aditionalContent": []
           },
           {
