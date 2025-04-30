@@ -1,0 +1,12 @@
+This application was developed as part of a time-limited technical test with specific requirements. For this project, I used React, JavaScript, and CSS as these are the technologies I'm most experienced with..  
+
+The challenge proved particularly interesting due to the intensive work with mouse events, where I implemented:.  
+    • Allowing users to "paint" by holding down and dragging the cursor..  
+    • Disabling the right-click (preventing the default context menu)..  
+    • A custom contextual menu with a color palette that appears instead..  
+
+To achieve this last feature, I researched coordinate handling using clientX/clientY, enabling dynamic menu positioning based on the cursor location.
+
+Additionally, I optimized the layout using window.innerWidth/innerHeight to generate exactly 100 adaptive square cells fitting the user's screen and ensure they occupied all visible space without overflow, thereby fully meeting the project requirements..  
+
+The result was an intuitive and fluid interface with scalability for new features I plan to implement later.

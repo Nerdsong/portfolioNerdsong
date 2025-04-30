@@ -113,8 +113,6 @@ function ContactMe() {
               </a>
               <a href="https://github.com/Nerdsong"   id="github-icon">
               </a>
-              <a href="https://wa.me/+541123869921"  id="whatsapp-icon">
-              </a>
             </div>
         </div>
       </div>

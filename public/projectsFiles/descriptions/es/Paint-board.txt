@@ -1,0 +1,12 @@
+Esta aplicación fue desarrollada como parte de una prueba técnica con tiempo limitado y requisitos específicos, para ello utilicé React, Javascript y CSS ya que son las tecnologias con las que más tengo experiencia..  
+
+El desafío resultó particularmente interesante por el trabajo intensivo con mouse events, donde implementé:.   
+• Permitir al usuario "pintar" manteniendo el click y arrastrando el puntero..  
+• La desactivación del click derecho (evitando el context menu por defecto)..  
+• Un menú contextual personalizado con paleta de colores que aparece en su lugar..  
+  
+Para lograrlo este ultimó, investigué el manejo de coordenadas con clientX/clientY, permitiendo posicionar dinámicamente el menú según la ubicación del cursor.
+
+Además, optimicé el layout usando window.innerWidth/innerHeight para generar exactamente 100 celdas cuadradas adaptables a la pantalla del usuario y asegurar que ocuparan todo el espacio visible sin overflow, de esta manera pude cumplir con los requisitos del proyecto..  
+
+El resultado fue una interfaz intuitiva y fluida con escalabilidad para nuevas funcionalidades que aplicaré más adelante.
