@@ -16,13 +16,17 @@ html{
   }
 
   .video-visible {
-    opacity: 0.6; /* Video visible */
+    opacity: 0.8;
+    pointer-events: none;
+    transition: opacity 0.5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
   }
   
   .video-hidden {
     opacity: 0;
-    transition: opacity 0.5s ease-out;
-    pointer-events: none; /* Evita interacciones con el video cuando está oculto */
+    pointer-events: none;
+    transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
+    visibility: hidden;
   }
 
 @media (max-width: 480px){
