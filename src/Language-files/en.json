@@ -19,6 +19,7 @@
     "about": {
       "title": "About Me",
       "technologies": "Technologies:",
+      "technologiesBasic": "Technologies (Basic knowledge)",
       "education": {
         "subtitle": "Education: ",
         "text": "Associate Degree in Programming - National Technological University [UTN - Argentina] (In Progress)"
@@ -37,93 +38,6 @@
       "title": "Projects",
       "content": [
         {
-          "id": "Metronomo",
-          "rute": "/Projects-details/Metronomo",
-          "projectName": "Metronome",
-          "shortDescription": "An application that includes a metronome and a random number generator for practical, musical purposes.",
-          "longDescription": "/projectsFiles/descriptions/en/Metronomo.txt",
-          "images": [
-            {
-              "src": "/projectsFiles/projectImages/Metronomo-image.png",
-              "alt": "Image 1 carousel"
-            }
-          ],
-          "aditionalContent": [
-            {
-              "type": "link",
-              "name": "Deployment",
-              "url": "https://nerdsong.github.io/MetronomoHobosAcademy3/",
-              "jsonPathKey": "projects.content.4.aditionalContent"
-            },
-            {
-              "type": "link",
-              "name": "Repository",
-              "url": "https://github.com/Nerdsong/MetronomoHobosAcademy3",
-              "jsonPathKey": "projects.content.4.aditionalContent"
-            }
-          ]
-        },
-        {
-          "id": "Extension-google-chrome",
-          "rute": "/Projects-details/Extension-google-chrome",
-          "projectName": "Google Chrome Extension",
-          "shortDescription": "A tool for my current job that retrieves information when certain elements of the page are on the screen and returns information within the same page.",
-          "longDescription": "/projectsFiles/descriptions/en/Google-extension.txt",
-          "images":[
-            {"src": "/projectsFiles/projectImages/GoogleExt-image1.png", "alt": "Image 1 carousel"},
-            {"src": "/projectsFiles/projectImages/GoogleExt-image2.png", "alt": "Image 2 carousel"},
-            {"src": "/projectsFiles/projectImages/GoogleExt-image3.png", "alt": "Image 3 carousel"},
-            {"src": "/projectsFiles/projectImages/GoogleExt-image4.png", "alt": "Image 4 carousel"}
-        
-          ],
-          "aditionalContent": []
-        },
-        {
-          "id": "Tracking-tool",
-          "rute": "/Projects-details/Tracking-tool",
-          "projectName": "Tracking Tool",
-          "shortDescription": "A tool for my current job that allows generating two Excel sheets and displaying information on the screen in a specific order.",
-          "longDescription": "/projectsFiles/descriptions/en/Tracking-tool.txt",
-          "images": [
-            {
-              "src": "/projectsFiles/projectImages/Tracking-tool-image.png",
-              "alt": "Image 1 carousel"
-            },
-            {
-              "src": "/projectsFiles/projectImages/Tracking-tool-image2.png",
-              "alt": "Image 2 carousel"
-            }
-          ],
-          "aditionalContent": [
-            {
-              "type": "file",
-              "name": "Excel1.xls",
-              "url": "projectsFiles/demoFiles/Technicians_demo.xlsx",
-              "downloadName": "Technicians_demo.xlsx",
-              "jsonPathKey": "projects.content.2.aditionalContent"
-            },
-            {
-              "type": "file",
-              "name": "Excel2.xls",
-              "url": "projectsFiles/demoFiles/dc_export_services_data_demo.xls",
-              "downloadName": "dc_export_services_data_demo.xls",
-              "jsonPathKey": "projects.content.2.aditionalContent"
-            },
-            {
-              "type": "link",
-              "name": "Deployment",
-              "url": "https://nerdsong.github.io/TrackingBoard/",
-              "jsonPathKey": "projects.content.2.aditionalContent"
-            },
-            {
-              "type": "link",
-              "name": "Repository",
-              "url": "https://github.com/Nerdsong/TrackingBoard",
-              "jsonPathKey": "projects.content.2.aditionalContent"
-            }
-          ]
-        },
-        {
           "id": "Portafolio",
           "rute": "/Projects-details/Portafolio",
           "projectName": "Portfolio",
@@ -140,7 +54,7 @@
               "type": "link",
               "name": "Repository",
               "url": "https://github.com/Nerdsong/portfolioNerdsong",
-              "jsonPathKey": "projects.content.1.aditionalContent"
+              "jsonPathKey": "projects.content.0.aditionalContent"
             }
           ]
         },
@@ -165,13 +79,13 @@
             "type": "link",
             "name": "Deployment",
             "url": "https://weather-app-theta-seven-13.vercel.app/",
-            "jsonPathKey": "projects.content.0.aditionalContent"
+            "jsonPathKey": "projects.content.1.aditionalContent"
             },
             {
               "type": "link",
               "name": "Repository",
               "url": "https://github.com/Nerdsong/weatherApp",
-              "jsonPathKey": "projects.content.0.aditionalContent"
+              "jsonPathKey": "projects.content.1.aditionalContent"
             }
           ]
         },
@@ -196,14 +110,57 @@
               "type": "link",
               "name": "Deployment",
               "url": "https://paint-board-delta.vercel.app/",
-              "jsonPathKey": "projects.content.5.aditionalContent"
+              "jsonPathKey": "projects.content.2.aditionalContent"
               },
               {
                 "type": "link",
                 "name": "Repository",
                 "url": "https://github.com/Nerdsong/paintBoard",
-                "jsonPathKey": "projects.content.5.aditionalContent"
+                "jsonPathKey": "projects.content.2.aditionalContent"
               }
+          ]
+        },
+        {
+          "id": "Tracking-board",
+          "rute": "/Projects-details/Tracking-Board",
+          "projectName": "Tracking Board",
+          "shortDescription": "A tool  that allows generating two Excel sheets and displaying information on the screen in a specific order.",
+          "longDescription": "/projectsFiles/descriptions/en/Tracking-board.txt",
+          "images": [
+            {
+              "src": "/projectsFiles/projectImages/Tracking-board-image.png",
+              "alt": "Image 1 carousel"
+            },
+            {
+              "src": "/projectsFiles/projectImages/Tracking-board-image2.png",
+              "alt": "Image 2 carousel"
+            },
+            {
+              "src": "/projectsFiles/projectImages/Tracking-board-image3.png",
+              "alt": "Image 3 carousel"
+            }
+          ],
+          "aditionalContent": [
+            {
+              "type": "file",
+              "name": "Excel1.xls",
+              "url": "projectsFiles/demoFiles/Technicians_demo.xlsx",
+              "downloadName": "Technicians_demo.xlsx",
+              "jsonPathKey": "projects.content.3.aditionalContent"
+            },
+            {
+              "type": "file",
+              "name": "Excel2.xls",
+              "url": "projectsFiles/demoFiles/dc_export_services_data_demo.xls",
+              "downloadName": "dc_export_services_data_demo.xls",
+              "jsonPathKey": "projects.content.3.aditionalContent"
+            },
+            {
+              "type": "link",
+              "name": "Deployment",
+              "url": "https://tracking-board-project.vercel.app/",
+              "jsonPathKey": "projects.content.3.aditionalContent"
+            }
           ]
         }           
           

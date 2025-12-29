@@ -1,0 +1,96 @@
+Diseñé y desarrollé una aplicación de escritorio orientada a la organización, persistencia y visualización de datos importados desde hojas de Excel, con el objetivo de mejorar un flujo de trabajo existente sin romper la compatibilidad con los procesos tradicionales..  
+
+La aplicación permite cargar archivos de Excel de manera consecutiva para transformar datos crudos en vistas estructuradas e interactivas, y persistir la información localmente para su uso continuo. Fue pensada para resolver una necesidad real, priorizando la usabilidad y la continuidad operativa..  
+
+🧩 El Problema:.
+
+El flujo de trabajo original dependía fuertemente del manejo manual de Excel:.  
+
+-Información distribuida originalmente en formato tabla sin normalizar, es decir, con redundancia de informacion.  
+
+-La solucion existente "normalizaba" la tabla de forma rudimentaria en otra tabla donde la informacion se cargaba y se actualizaba manualmente, escribiendo cada cambio en celdas.  
+
+-Dificultad para dar seguimiento a los datos en el tiempo debido a la actualizacion manual de estos y la posibilidad de inconsistencias entre la informacion real y la recopilada manulamente.  
+
+-Necesidad de usar herramientas alternativas como el notepad.  
+
+-Tiempo perdido en un proceso manual para mejorar la visibilidad de los datos.  
+
+
+El desafío fue optimizar el proceso sin forzar un cambio abrupto en la forma de trabajo existente ya que hace un par de años habia intentado resolverlo pero entendi que era necesario proponer un nuevo flujo haciendo que este fuese compatible con el anterior..  
+
+💡 Solución..  
+
+Desarrollé una aplicación que:.  
+
+-Permite importar múltiples archivos de Excel con drag and drop, o leyendo directorios en la version de escritorio..  
+
+-Normaliza y valida los datos en una estructura interna consistente..  
+
+-Permite agregar comentarios y etiquetas que se integran con la estructura "cruda" del archivo mediante interfaces interactivas donde se puede filtrar y agrupar registros..  
+
+-Persiste la información localmente mediante IndexedDB..  
+
+-Todo es exportable en un Excel que permite a otros tener la misma visibilidad del "perfil" con los comentarios y etiquetas de quien exporta..  
+
+-También permite exportar reportes en el mismo formato de tabla utilizado en el flujo de trabajo anterior, manteniendo la compatibilidad entre usuarios y mejorando la eficiencia al permitir la actualización masiva de registros mediante copy/paste, en lugar de la carga manual individual..  
+
+El enfoque fue ofrecer una solucion y una mejora del flujo de trabajo sin que fuese completamente necesario abandonar el flujo anterior para adoptar el nuevo..  
+
+⚙️ Arquitectura técnica..  
+
+Frontend: React + TypeScript..  
+
+Estilos: Tailwind CSS..  
+
+Persistencia: IndexedDB..  
+
+Empaquetado: Tauri..  
+
+Decisiones clave:
+
+Tipado fuerte para evitar inconsistencias al importar/exportar datos..  
+
+Separación clara entre estado de UI y datos persistidos..  
+
+Diseño offline-first, sin dependencia de red..  
+
+Experiencia de escritorio usando tecnologías web..  
+
+✨ Funcionalidades principales:.  
+
+📥 Importación de hojas de Excel..  
+
+🧠 Normalización y datos..  
+
+👤 Gestión de perfiles con estado persistente..  
+
+🔍 Vistas interactivas (filtros, agrupaciones, estados)..  
+
+💾 Persistencia de datos entre sesiones..  
+
+📤 Exportación de reportes a Excel..  
+
+🔄 Compatibilidad con métodos de trabajo existentes..  
+
+Todo mediante una aplicacion que se ejecuta al 100% del lado del cliente, sin generar problemas de entorno con herramientas de seguridad..  
+
+🚀 Impacto..  
+
+Reducción del trabajo manual en Excel..  
+
+Mayor trazabilidad y consistencia de la información..  
+
+Transición progresiva hacia una herramienta digital..  
+
+Solución centrada en problemas reales del entorno laboral..  
+
+🧠 Aprendizajes..  
+
+Diseño de aplicaciones frontend orientadas a restricciones reales de negocio..  
+
+Manejo de estado complejo y persistencia del lado del cliente..  
+
+Arquitectura de aplicaciones React escalables..  
+
+Equilibrio entre mejora técnica y adopción por parte del usuario..

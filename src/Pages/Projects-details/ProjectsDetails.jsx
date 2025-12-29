@@ -15,8 +15,6 @@ function ProjectsDetails() {
   const projectToRender = data.projects.content.find((dataItem) => dataItem.id === projectName);
 
   const projectIndex = data.projects.content.findIndex((dataItem) => dataItem.id === projectName)
-
-  console.log(projectToRender.images)
     
     if(projectToRender !== undefined){
       return(

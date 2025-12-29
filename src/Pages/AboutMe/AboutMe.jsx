@@ -15,7 +15,7 @@ function AboutMe() {
         <h1>{t('about.title')}</h1>
       </div>
       <div className="aboutme-content">
-        <img className="profile-photo" src="/images/AboutMePortfolio.jpg" alt="foto-nelson" />
+        <img className="profile-photo" src="/images/AboutMePortfolio.png" alt="foto-nelson" />
         <div className='perspective-shadow'>
 
         </div>
@@ -49,6 +49,7 @@ function AboutMe() {
               </div>
             </div>
           </div>
+          
           <div className="details-container">
             <h3>{t('about.education.subtitle')}</h3>
             <p>

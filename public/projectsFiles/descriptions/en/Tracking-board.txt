@@ -1,0 +1,94 @@
+I designed and developed a desktop application focused on the organization, persistence, and visualization of data imported from Excel spreadsheets, with the goal of improving an existing workflow without breaking compatibility with traditional processes..  
+
+The application allows users to consecutively load Excel files to transform raw data into structured and interactive views, while persisting the information locally for continuous use. It was built to solve a real-world need, prioritizing usability and operational continuity..  
+
+🧩 The Problem.  
+
+The original workflow relied heavily on manual Excel handling:.  
+
+Information was originally stored in a non-normalized table format, resulting in data redundancy..  
+
+The existing solution attempted to “normalize” the data by copying it into a second table, where information had to be manually entered and updated cell by cell..  
+
+Difficulty tracking data over time due to manual updates and the risk of inconsistencies between real-world data and manually recorded information..  
+
+The need to rely on auxiliary tools such as Notepad..  
+
+Significant time lost in manual processes just to improve data visibility..  
+
+The challenge was to optimize the process without forcing an abrupt change to the existing way of working. A similar attempt had been made years earlier, but I realized that the correct approach was to propose a new workflow fully compatible with the previous one..  
+
+💡 Solution.  
+
+I developed an application that:.  
+
+Allows importing multiple Excel files via drag and drop, or by reading directories in the desktop version..  
+
+Normalizes and validates data into a consistent internal structure..  
+
+Enables adding comments and tags that integrate with the original “raw” file structure through interactive interfaces with filtering and grouping capabilities..  
+
+Persists information locally using IndexedDB..  
+
+Allows exporting everything to Excel, enabling others to view the same “profile” with comments and tags created by the exporting user..  
+
+Also supports exporting reports in the same table format used in the previous workflow, maintaining compatibility between users and improving efficiency by enabling bulk updates via copy/paste instead of manual, record-by-record input..  
+
+The overall approach was to improve the workflow without requiring the complete abandonment of the existing one..  
+
+⚙️ Technical Architecture.  
+
+Frontend: React + TypeScript..  
+
+Styling: Tailwind CSS..  
+Persistence: IndexedDB..  
+
+Packaging: Tauri..  
+
+Key decisions:..  
+
+Strong typing to prevent inconsistencies during data import/export..  
+
+Clear separation between UI state and persisted data..  
+
+Offline-first design with no network dependency..  
+
+Desktop experience built using web technologies..  
+
+✨ Key Features.  
+
+📥 Excel spreadsheet import..  
+
+🧠 Data normalization and validation..  
+
+👤 Profile management with persisted state..  
+
+🔍 Interactive views (filters, groupings, statuses)..  
+
+💾 Data persistence across sessions..  
+
+📤 Excel report export..  
+
+🔄 Compatibility with existing workflows..  
+
+All of this is delivered through an application that runs 100% on the client side, avoiding environment-related issues with security tools..  
+
+🚀 Impact.  
+
+Reduced manual Excel work..  
+
+Improved data traceability and consistency..  
+
+Progressive transition toward a digital tool..  
+
+A solution centered on real workplace problems..  
+
+🧠 What I Learned:.  
+
+Designing frontend applications around real business constraints..  
+
+Managing complex client-side state and persistence..  
+
+Structuring scalable React applications..  
+
+Balancing technical improvements with user adoption..  
