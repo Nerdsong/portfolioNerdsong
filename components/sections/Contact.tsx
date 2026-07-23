@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import Lottie from 'lottie-react';
 import { useState } from 'react';
 import { useTranslation } from '@/components/providers/I18nProvider';
@@ -41,10 +41,6 @@ export function Contact() {
             >
               <Github className="h-5 w-5" />
               GitHub
-            </Link>
-            <Link href={`mailto:${t('contact.email')}`} className="social-link">
-              <Mail className="h-5 w-5" />
-              {t('contact.email')}
             </Link>
           </div>
 

@@ -70,11 +70,7 @@ export function HudPortrait({ alt }: HudPortraitProps) {
         ))}
       </div>
 
-      <motion.div
-        className="relative aspect-square w-full"
-        animate={reducedMotion ? undefined : { y: [0, -8, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-      >
+      <div className="relative aspect-square w-full">
         <Image
           src="/images/background-image--3.png"
           alt={alt}
@@ -83,7 +79,7 @@ export function HudPortrait({ alt }: HudPortraitProps) {
           priority
           sizes="(max-width: 1024px) 100vw, 50vw"
         />
-      </motion.div>
+      </div>
     </div>
   );
 }

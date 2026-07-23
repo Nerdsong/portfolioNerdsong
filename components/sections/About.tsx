@@ -13,6 +13,11 @@ const stats = [
   { key: 'about.stats.focus' },
 ] as const;
 
+const cvFiles = {
+  es: '/Nelson Jhoel Adarmes  CV-Esp.pdf',
+  en: '/Nelson Jhoel Adarmes  CV-En.pdf',
+} as const;
+
 export function About() {
   const { t } = useTranslation();
 
@@ -26,13 +31,13 @@ export function About() {
           </p>
           <div className="flex flex-wrap gap-3">
             <Button variant="outline" size="sm" asChild>
-              <Link href="/CV-NelsonAdarmes-Spanish.pdf" download>
+              <Link href={encodeURI(cvFiles.es)} download="Nelson-Jhoel-Adarmes-CV-ES.pdf">
                 <Download className="h-4 w-4" />
                 {t('about.cv.es')}
               </Link>
             </Button>
             <Button variant="outline" size="sm" asChild>
-              <Link href="/CV-NelsonAdarmes-English.pdf" download>
+              <Link href={encodeURI(cvFiles.en)} download="Nelson-Jhoel-Adarmes-CV-EN.pdf">
                 <Download className="h-4 w-4" />
                 {t('about.cv.en')}
               </Link>
