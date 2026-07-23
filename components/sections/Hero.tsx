@@ -15,7 +15,7 @@ export function Hero() {
       <div className="site-container relative flex flex-1 flex-col lg:min-h-[36rem]">
         <div className="pointer-events-none absolute inset-0 overflow-visible" aria-hidden="true">
           <div
-            className="absolute left-[85%] top-38 z-0 w-full max-w-[520px] -translate-x-1/2 translate-y-32 overflow-visible lg:left-auto lg:right-0 lg:top-[32%] lg:w-1/2 lg:max-w-none lg:translate-y-0 lg:-translate-y-1/2 lg:translate-x-0"
+            className="absolute left-[85%] top-38 z-0 w-full max-w-[520px] -translate-x-1/2 translate-y-32 overflow-visible lg:left-auto lg:right-0 lg:-top-16 lg:w-1/2 lg:max-w-none lg:translate-x-0 lg:translate-y-[-16%]"
           >
             <HudPortrait alt="" />
           </div>
