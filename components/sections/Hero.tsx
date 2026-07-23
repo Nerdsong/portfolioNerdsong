@@ -15,7 +15,7 @@ export function Hero() {
       <div className="site-container relative flex flex-1 flex-col lg:min-h-[36rem]">
         <div className="pointer-events-none absolute inset-0 overflow-visible" aria-hidden="true">
           <div
-            className="absolute left-[85%] top-38 z-0 w-full max-w-[520px] -translate-x-1/2 overflow-visible lg:left-auto lg:right-0 lg:top-[32%] lg:w-1/2 lg:max-w-none lg:-translate-y-1/2 lg:translate-x-0"
+            className="absolute left-[85%] top-38 z-0 w-full max-w-[520px] -translate-x-1/2 translate-y-32 overflow-visible lg:left-auto lg:right-0 lg:top-[32%] lg:w-1/2 lg:max-w-none lg:translate-y-0 lg:-translate-y-1/2 lg:translate-x-0"
           >
             <HudPortrait alt="" />
           </div>
@@ -35,7 +35,7 @@ export function Hero() {
             </p>
           </div>
 
-          <div className="absolute left-0 right-0 top-[85%] flex flex-nowrap gap-2 sm:gap-4 lg:relative lg:top-auto lg:mt-0 lg:flex-wrap lg:gap-4">
+          <div className="absolute left-0 right-0 top-[75%] flex flex-nowrap gap-2 sm:gap-4 lg:relative lg:top-auto lg:mt-0 lg:flex-wrap lg:gap-4">
             <Button asChild size="lg" className="group flex-1 px-3 text-sm sm:flex-none sm:px-8 sm:text-base">
               <Link href="/#projects">
                 {t('hero.ctaProjects')}
