@@ -1,0 +1,31 @@
+VEKA Studio es un estudio de marketing estratégico y creativo. Este proyecto consiste en el desarrollo de su sitio web institucional: una plataforma pensada para presentar servicios, mostrar casos de éxito, compartir contenido y captar nuevos clientes de forma ordenada..  
+
+🎨 Diseño y proceso con el cliente.  
+
+El diseño de la interfaz partió del manual de marca del estudio, respetando su identidad, tono y valores. Durante el proceso trabajé en iteraciones constantes con el cliente: ajustes de jerarquía visual, tipografía, espaciados y componentes hasta llegar a una experiencia coherente y alineada con lo que la marca quiere transmitir..  
+
+Uno de los puntos clave del proyecto fue la redefinición de la paleta de colores. El objetivo fue diferenciar la identidad visual de los sistemas de diseño más comunes, evitando una estética genérica o similar a la de otras marcas, sin perder la esencia de la identidad original. Para ello, se incorporó una nueva combinación de tonos sage, crema y lavanda, logrando una imagen más distintiva..  
+
+✨ Funcionalidades del sitio.  
+
+El sitio incluye landing page con hero, misión, servicios, portfolio, proceso de trabajo y llamada a la acción final; páginas de servicios dinámicas (estrategia digital, branding, contenido, paid media, consultoría); sección "Nosotros" con historia, valores, equipo y estadísticas; blog con listado y artículos individuales; y un funnel de contacto en modal con formulario guiado que califica leads y deriva la conversación a WhatsApp con un código de solicitud..  
+
+📦 Integración con Sanity CMS.  
+
+El contenido del sitio está integrado con Sanity, lo que permite que el cliente gestione textos, imágenes y secciones sin depender del código. El proyecto incluye Sanity Studio embebido en la app (/studioEditor), schemas personalizados para configuración global, landing, página "Nosotros", servicios, portfolio, pasos del proceso y artículos de blog, consultas GROQ para traer el contenido al frontend de Next.js, y fallback con datos mock para que el sitio siga funcionando mientras se completa la carga editorial..  
+
+Esto deja al cliente con autonomía para actualizar el sitio a medida que el negocio crece, sin necesidad de tocar el repositorio..  
+
+⚙️ Stack técnico.  
+
+Next.js 16 (App Router) + React 19 + TypeScript..  
+
+Tailwind CSS 4 para el sistema de diseño..  
+
+Sanity como headless CMS..  
+
+Tipografías: Playfair Display, Inter y Caveat..  
+
+🚀 Estado del proyecto.  
+
+El sitio se encuentra en desarrollo activo. La base visual, la estructura de páginas, la integración con Sanity y el funnel de contacto ya están implementados; quedan pendientes tareas como la carga final de contenido real, refinamientos y posibles integraciones adicionales (por ejemplo, persistencia de leads en base de datos)..  

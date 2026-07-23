@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "stack": "Stack",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "FRONTEND DEVELOPER",
+    "title": "Nelson Adarmes",
+    "subtitle": "React • TypeScript • Next.js",
+    "description": "Construyo interfaces modernas, rápidas y enfocadas en la experiencia de usuario.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactarme"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio": "Desarrollador Frontend en formación, con experiencia construyendo interfaces web modernas con React y TypeScript. Me interesa crear productos limpios, accesibles y con atención al detalle visual.",
+    "stats": {
+      "years": "+4 años de aprendizaje continuo",
+      "solutions": "Proyectos que resuelven problemas reales",
+      "focus": "Desarrollo orientado a UX/UI"
+    },
+    "cv": {
+      "label": "Descargar CV",
+      "es": "CV en español",
+      "en": "CV en inglés"
+    }
+  },
+  "stack": {
+    "title": "Stack",
+    "subtitle": "Tecnologías con las que trabajo y sigo profundizando.",
+    "coreTitle": "Core Stack",
+    "coreSubtitle": "Mi stack principal de desarrollo.",
+    "alsoTitle": "También he trabajado con",
+    "alsoSubtitle": "Herramientas y tecnologías que he utilizado en proyectos académicos y proyectos personales alternativos."
+  },
+  "projects": {
+    "title": "Proyectos destacados",
+    "subtitle": "Una selección de trabajos recientes.",
+    "viewDetail": "Ver detalle",
+    "demo": "Demo",
+    "github": "GitHub",
+    "notFound": "Proyecto no encontrado",
+    "backToList": "Volver a proyectos",
+    "loading": "Cargando...",
+    "descriptionError": "No se pudo cargar la descripción del proyecto."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Trayectorias en paralelo: trabajo, formación y proyectos que hoy siguen activos.",
+    "current": "Actualidad"
+  },
+  "contact": {
+    "title": "¿Trabajamos juntos?",
+    "description": "Estoy abierto a colaboraciones, proyectos freelance y oportunidades como Frontend Developer.",
+    "email": "nelson.adarmes@email.com",
+    "labels": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje"
+    },
+    "button": "Enviar",
+    "captchaError": "Por favor completa el captcha",
+    "sendError": "No se pudo enviar el mensaje. Intenta de nuevo."
+  },
+  "footer": {
+    "copyright": "© 2026 Nelson Adarmes. Todos los derechos reservados."
+  },
+  "scrollLine": {
+    "hero": "Hero",
+    "about": "Sobre mí",
+    "stack": "Stack",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  }
+}

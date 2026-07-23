@@ -1,0 +1,31 @@
+VEKA Studio is a strategic and creative marketing agency. This project is the development of its institutional website: a platform designed to present services, showcase success stories, share content, and capture new clients in an organized way..  
+
+🎨 Design and client collaboration.  
+
+The interface design started from the studio's brand guidelines, respecting its identity, tone, and values. Throughout the process, I worked in constant iterations with the client: adjustments to visual hierarchy, typography, spacing, and components until reaching a coherent experience aligned with what the brand wants to convey..  
+
+One of the key points of the project was redefining the color palette. The goal was to differentiate the visual identity from common design systems, avoiding a generic aesthetic or one similar to other brands, without losing the essence of the original identity. To achieve this, a new combination of sage, cream, and lavender tones was incorporated, resulting in a more distinctive image..  
+
+✨ Site features.  
+
+The site includes a landing page with hero, mission, services, portfolio, work process, and final call to action; dynamic service pages (digital strategy, branding, content, paid media, consulting); an "About Us" section with history, values, team, and statistics; a blog with listing and individual articles; and a contact funnel in a modal with a guided form that qualifies leads and routes the conversation to WhatsApp with a request code..  
+
+📦 Sanity CMS integration.  
+
+Site content is integrated with Sanity, allowing the client to manage texts, images, and sections without depending on code. The project includes Sanity Studio embedded in the app (/studioEditor), custom schemas for global configuration, landing, "About Us" page, services, portfolio, process steps, and blog articles, GROQ queries to fetch content to the Next.js frontend, and mock data fallback so the site keeps working while editorial content is being completed..  
+
+This gives the client autonomy to update the site as the business grows, without needing to touch the repository..  
+
+⚙️ Technical stack.  
+
+Next.js 16 (App Router) + React 19 + TypeScript..  
+
+Tailwind CSS 4 for the design system..  
+
+Sanity as headless CMS..  
+
+Typography: Playfair Display, Inter, and Caveat..  
+
+🚀 Project status.  
+
+The site is in active development. The visual foundation, page structure, Sanity integration, and contact funnel are already implemented; pending tasks include final real content loading, refinements, and possible additional integrations (for example, lead persistence in a database)..  

@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "FRONTEND DEVELOPER",
+    "title": "Nelson Adarmes",
+    "subtitle": "React • TypeScript • Next.js",
+    "description": "I build modern, fast interfaces focused on user experience.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Contact me"
+  },
+  "about": {
+    "title": "About me",
+    "bio": "Frontend Developer in training, with experience building modern web interfaces with React and TypeScript. I'm interested in creating clean, accessible products with attention to visual detail.",
+    "stats": {
+      "years": "4+ Years of Continuous Learning",
+      "solutions": "Projects Solving Real Problems",
+      "focus": "UX/UI-Oriented Development"
+    },
+    "cv": {
+      "label": "Download CV",
+      "es": "CV in Spanish",
+      "en": "CV in English"
+    }
+  },
+  "stack": {
+    "title": "Stack",
+    "subtitle": "Technologies I work with and keep deepening.",
+    "coreTitle": "Core Stack",
+    "coreSubtitle": "My main development stack.",
+    "alsoTitle": "Also worked with",
+    "alsoSubtitle": "Tools and technologies I've used in academic projects and alternative personal projects."
+  },
+  "projects": {
+    "title": "Featured projects",
+    "subtitle": "A selection of recent work.",
+    "viewDetail": "View details",
+    "demo": "Demo",
+    "github": "GitHub",
+    "notFound": "Project not found",
+    "backToList": "Back to projects",
+    "loading": "Loading...",
+    "descriptionError": "Could not load the project description."
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Parallel paths: work, training, and projects that are still active today.",
+    "current": "Present"
+  },
+  "contact": {
+    "title": "Let's work together",
+    "description": "I'm open to collaborations, freelance projects, and opportunities as a Frontend Developer.",
+    "email": "nelson.adarmes@email.com",
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message"
+    },
+    "button": "Send",
+    "captchaError": "Please complete the captcha",
+    "sendError": "Failed to send message. Please try again."
+  },
+  "footer": {
+    "copyright": "© 2026 Nelson Adarmes. All rights reserved."
+  },
+  "scrollLine": {
+    "hero": "Hero",
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  }
+}
